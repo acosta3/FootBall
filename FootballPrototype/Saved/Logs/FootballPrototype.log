@@ -4772,3 +4772,545 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.24-22.37.46:974][ 31]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5533.437988
 [2026.01.24-22.37.47:974][ 34]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.01.24-22.37.47:974][ 34]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5534.104492, Update Interval: 336.241333
+[2026.01.24-22.38.28:470][165]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.38.28:477][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.38.28:513][165]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.28:515][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001828s)
+[2026.01.24-22.38.28:515][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001873s)
+[2026.01.24-22.38.28:536][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.01.24-22.38.28:538][165]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.38.28:539][165]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2026.01.24-22.38.28:540][165]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.38.28:540][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.38.28:540][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.38.28:540][165]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.38.28:540][165]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.38.28:540][165]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.38.28:541][165]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.38.28:563][165]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.38.28:563][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.38.28:563][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.38.28:563][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.38.28:564][165]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.01.24-22.38.28:564][165]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2026.01.24-22.38.28:565][165]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.01.24-22.38.28:565][165]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.01.24-22.38.28:565][165]LogInit: FAudioDevice initialized with ID 34.
+[2026.01.24-22.38.28:565][165]LogAudio: Display: Audio Device (ID: 34) registered with world 'Field'.
+[2026.01.24-22.38.28:565][165]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.01.24-22.38.28:569][165]LogStreaming: Display: FlushAsyncLoading(569): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.38.28:569][165]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.38.28:570][165]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.28:570][165]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.28:570][165]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.38.28
+[2026.01.24-22.38.28:570][165]LogWorld: Bringing up level for play took: 0.000710
+[2026.01.24-22.38.28:572][165]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2026.01.24-22.38.28:577][165]PIE: Server logged in
+[2026.01.24-22.38.28:578][165]PIE: Play in editor total start time 0.101 seconds.
+[2026.01.24-22.38.28:612][166]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.38.31:719][530]LogBlueprintUserMessages: [BP_Player_C_0] X=1540.013 Y=-1969.355 Z=700.000
+[2026.01.24-22.38.33:923][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.33:923][788]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.33:923][788]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.38.33:923][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.33:926][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.38.33:930][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.33:949][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.33:949][788]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.01.24-22.38.33:949][788]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.01.24-22.38.33:950][788]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.01.24-22.38.33:959][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.24-22.38.33:992][789]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2026.01.24-22.38.35:289][927]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.38.35:295][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.38.35:333][927]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.35:335][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002280s)
+[2026.01.24-22.38.35:335][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002329s)
+[2026.01.24-22.38.35:357][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.01.24-22.38.35:359][927]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.38.35:361][927]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2026.01.24-22.38.35:361][927]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.38.35:361][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.38.35:361][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.38.35:361][927]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.38.35:361][927]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.38.35:361][927]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.38.35:363][927]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.38.35:383][927]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.38.35:383][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.38.35:383][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.38.35:383][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.38.35:384][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2026.01.24-22.38.35:384][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2026.01.24-22.38.35:385][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2026.01.24-22.38.35:385][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2026.01.24-22.38.35:385][927]LogInit: FAudioDevice initialized with ID 35.
+[2026.01.24-22.38.35:385][927]LogAudio: Display: Audio Device (ID: 35) registered with world 'Field'.
+[2026.01.24-22.38.35:385][927]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2026.01.24-22.38.35:389][927]LogStreaming: Display: FlushAsyncLoading(570): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.38.35:389][927]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.38.35:389][927]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.35:389][927]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.35:390][927]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.38.35
+[2026.01.24-22.38.35:390][927]LogWorld: Bringing up level for play took: 0.000677
+[2026.01.24-22.38.35:392][927]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2026.01.24-22.38.35:395][927]PIE: Server logged in
+[2026.01.24-22.38.35:397][927]PIE: Play in editor total start time 0.102 seconds.
+[2026.01.24-22.38.35:431][928]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.38.38:657][306]LogBlueprintUserMessages: [BP_Player_C_0] X=-180.092 Y=-959.998 Z=0.000
+[2026.01.24-22.38.39:520][408]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.38.41:023][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.41:023][582]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.41:023][582]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.38.41:023][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.41:026][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.38.41:031][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.41:050][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.41:050][582]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2026.01.24-22.38.41:050][582]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2026.01.24-22.38.41:052][582]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2026.01.24-22.38.41:059][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.01.24-22.38.41:099][583]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2026.01.24-22.38.42:894][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.38.42:901][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.38.42:933][779]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.42:935][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001770s)
+[2026.01.24-22.38.42:935][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001810s)
+[2026.01.24-22.38.42:960][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.01.24-22.38.42:962][779]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.38.42:963][779]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2026.01.24-22.38.42:964][779]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.38.42:964][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.38.42:964][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.38.42:964][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.38.42:964][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.38.42:964][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.38.42:966][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.38.42:986][779]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.38.42:986][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.38.42:986][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.38.42:986][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.38.42:987][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2026.01.24-22.38.42:987][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2026.01.24-22.38.42:989][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2026.01.24-22.38.42:989][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2026.01.24-22.38.42:989][779]LogInit: FAudioDevice initialized with ID 36.
+[2026.01.24-22.38.42:989][779]LogAudio: Display: Audio Device (ID: 36) registered with world 'Field'.
+[2026.01.24-22.38.42:989][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2026.01.24-22.38.42:992][779]LogStreaming: Display: FlushAsyncLoading(571): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.38.42:992][779]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.38.42:992][779]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.42:993][779]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.42:993][779]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.38.42
+[2026.01.24-22.38.42:993][779]LogWorld: Bringing up level for play took: 0.000716
+[2026.01.24-22.38.42:994][779]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.01.24-22.38.42:998][779]PIE: Server logged in
+[2026.01.24-22.38.43:000][779]PIE: Play in editor total start time 0.1 seconds.
+[2026.01.24-22.38.43:033][780]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.38.46:283][162]LogBlueprintUserMessages: [BP_Player_C_0] X=-326.972 Y=-1149.747 Z=0.000
+[2026.01.24-22.38.46:912][236]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.38.48:423][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.48:423][412]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.48:423][412]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.38.48:423][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.48:426][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.38.48:431][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.48:452][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.48:452][412]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2026.01.24-22.38.48:452][412]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=4
+[2026.01.24-22.38.48:454][412]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=2
+[2026.01.24-22.38.48:462][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.01.24-22.38.48:499][413]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.01.24-22.38.49:723][538]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.38.49:730][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.38.49:763][538]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.49:764][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001759s)
+[2026.01.24-22.38.49:764][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001799s)
+[2026.01.24-22.38.49:783][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.01.24-22.38.49:785][538]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.38.49:787][538]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2026.01.24-22.38.49:787][538]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.38.49:787][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.38.49:787][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.38.49:787][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.38.49:787][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.38.49:787][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.38.49:789][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.38.49:810][538]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.38.49:810][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.38.49:810][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.38.49:810][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.38.49:810][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2026.01.24-22.38.49:810][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2026.01.24-22.38.49:813][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2026.01.24-22.38.49:813][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2026.01.24-22.38.49:813][538]LogInit: FAudioDevice initialized with ID 37.
+[2026.01.24-22.38.49:813][538]LogAudio: Display: Audio Device (ID: 37) registered with world 'Field'.
+[2026.01.24-22.38.49:813][538]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2026.01.24-22.38.49:816][538]LogStreaming: Display: FlushAsyncLoading(572): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.38.49:816][538]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.38.49:817][538]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.49:817][538]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.49:817][538]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.38.49
+[2026.01.24-22.38.49:817][538]LogWorld: Bringing up level for play took: 0.000698
+[2026.01.24-22.38.49:819][538]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.01.24-22.38.49:822][538]PIE: Server logged in
+[2026.01.24-22.38.49:824][538]PIE: Play in editor total start time 0.094 seconds.
+[2026.01.24-22.38.49:857][539]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.38.54:178][ 46]LogBlueprintUserMessages: [BP_Player_C_0] X=-67.593 Y=-826.567 Z=0.000
+[2026.01.24-22.38.54:640][100]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.38.55:482][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.55:482][197]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.55:482][197]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.38.55:483][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.55:485][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.38.55:490][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.38.55:510][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.38.55:510][197]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2026.01.24-22.38.55:510][197]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=4
+[2026.01.24-22.38.55:511][197]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=2
+[2026.01.24-22.38.55:519][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.01.24-22.38.55:560][198]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2026.01.24-22.38.56:533][295]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.38.56:539][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.38.56:562][295]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.38.56:564][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001754s)
+[2026.01.24-22.38.56:564][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001793s)
+[2026.01.24-22.38.56:585][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.24-22.38.56:587][295]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.38.56:589][295]LogPlayLevel: PIE: World Init took: (0.001592s)
+[2026.01.24-22.38.56:590][295]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.38.56:590][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.38.56:590][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.38.56:590][295]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.38.56:590][295]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.38.56:590][295]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.38.56:591][295]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.38.56:612][295]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.38.56:612][295]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.38.56:612][295]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.38.56:612][295]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.38.56:612][295]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.01.24-22.38.56:612][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2026.01.24-22.38.56:614][295]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.01.24-22.38.56:614][295]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.01.24-22.38.56:614][295]LogInit: FAudioDevice initialized with ID 38.
+[2026.01.24-22.38.56:614][295]LogAudio: Display: Audio Device (ID: 38) registered with world 'Field'.
+[2026.01.24-22.38.56:614][295]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.01.24-22.38.56:617][295]LogStreaming: Display: FlushAsyncLoading(573): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.38.56:617][295]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.38.56:618][295]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.56:618][295]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.38.56:618][295]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.38.56
+[2026.01.24-22.38.56:618][295]LogWorld: Bringing up level for play took: 0.000669
+[2026.01.24-22.38.56:621][295]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2026.01.24-22.38.56:625][295]PIE: Server logged in
+[2026.01.24-22.38.56:627][295]PIE: Play in editor total start time 0.087 seconds.
+[2026.01.24-22.38.56:660][296]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.39.00:096][699]LogBlueprintUserMessages: [BP_Player_C_0] X=-255.514 Y=888.157 Z=0.000
+[2026.01.24-22.39.00:197][711]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-22.39.00:197][711]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.39.01:293][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.39.01:293][838]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.39.01:293][838]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.39.01:293][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.39.01:296][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.39.01:300][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.39.01:320][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.39.01:320][838]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.01.24-22.39.01:320][838]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=4
+[2026.01.24-22.39.01:322][838]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=2
+[2026.01.24-22.39.01:329][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.24-22.39.01:368][839]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2026.01.24-22.39.02:804][994]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.39.02:811][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.39.02:813][994]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.39.02:814][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001721s)
+[2026.01.24-22.39.02:814][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001756s)
+[2026.01.24-22.39.02:835][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.24-22.39.02:836][994]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.39.02:838][994]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2026.01.24-22.39.02:838][994]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.39.02:838][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.39.02:838][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.39.02:838][994]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.39.02:838][994]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.39.02:838][994]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.39.02:840][994]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.39.02:860][994]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.39.02:860][994]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.39.02:860][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.39.02:860][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.39.02:861][994]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2026.01.24-22.39.02:861][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2026.01.24-22.39.02:863][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2026.01.24-22.39.02:863][994]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2026.01.24-22.39.02:863][994]LogInit: FAudioDevice initialized with ID 39.
+[2026.01.24-22.39.02:863][994]LogAudio: Display: Audio Device (ID: 39) registered with world 'Field'.
+[2026.01.24-22.39.02:863][994]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2026.01.24-22.39.02:867][994]LogStreaming: Display: FlushAsyncLoading(574): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.39.02:867][994]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.39.02:868][994]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.39.02:868][994]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.39.02:868][994]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.39.02
+[2026.01.24-22.39.02:868][994]LogWorld: Bringing up level for play took: 0.000812
+[2026.01.24-22.39.02:870][994]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2026.01.24-22.39.02:873][994]PIE: Server logged in
+[2026.01.24-22.39.02:875][994]PIE: Play in editor total start time 0.063 seconds.
+[2026.01.24-22.39.02:909][995]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.39.26:693][814]LogBlueprintUserMessages: [BP_Player_C_0] X=181.354 Y=-856.879 Z=0.000
+[2026.01.24-22.39.26:845][832]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.39.31:324][363]LogBlueprintUserMessages: [BP_Player_C_0] X=31.411 Y=846.551 Z=0.000
+[2026.01.24-22.39.31:788][418]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-22.39.31:788][418]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.39.33:052][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.39.33:052][565]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.39.33:052][565]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.39.33:052][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.39.33:055][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.39.33:060][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.39.33:078][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.39.33:078][565]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2026.01.24-22.39.33:078][565]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=4
+[2026.01.24-22.39.33:079][565]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=2
+[2026.01.24-22.39.33:086][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.01.24-22.39.33:126][566]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2026.01.24-22.39.34:548][722]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.39.34:554][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.39.34:581][722]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.39.34:583][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2026.01.24-22.39.34:583][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001784s)
+[2026.01.24-22.39.34:615][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.01.24-22.39.34:617][722]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.39.34:618][722]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2026.01.24-22.39.34:619][722]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.39.34:619][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.39.34:619][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.39.34:619][722]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.39.34:619][722]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.39.34:619][722]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.39.34:621][722]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.39.34:640][722]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.39.34:641][722]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.39.34:641][722]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.39.34:641][722]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.39.34:641][722]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2026.01.24-22.39.34:641][722]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2026.01.24-22.39.34:642][722]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2026.01.24-22.39.34:642][722]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2026.01.24-22.39.34:642][722]LogInit: FAudioDevice initialized with ID 40.
+[2026.01.24-22.39.34:642][722]LogAudio: Display: Audio Device (ID: 40) registered with world 'Field'.
+[2026.01.24-22.39.34:642][722]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2026.01.24-22.39.34:646][722]LogStreaming: Display: FlushAsyncLoading(575): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.39.34:646][722]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.39.34:646][722]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.39.34:646][722]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.39.34:647][722]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.39.34
+[2026.01.24-22.39.34:647][722]LogWorld: Bringing up level for play took: 0.000670
+[2026.01.24-22.39.34:648][722]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.01.24-22.39.34:653][722]PIE: Server logged in
+[2026.01.24-22.39.34:654][722]PIE: Play in editor total start time 0.1 seconds.
+[2026.01.24-22.39.34:688][723]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.39.38:134][129]LogBlueprintUserMessages: [BP_Player_C_0] X=-264.331 Y=-1800.916 Z=700.000
+[2026.01.24-22.39.38:797][208]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.39.57:218][400]LogBlueprintUserMessages: [BP_Player_C_0] X=-420.095 Y=1306.485 Z=700.000
+[2026.01.24-22.39.57:487][432]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-22.39.57:487][432]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.40.01:737][936]LogBlueprintUserMessages: [BP_Player_C_0] X=213.810 Y=-2161.187 Z=700.000
+[2026.01.24-22.40.02:025][970]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 2
+[2026.01.24-22.40.05:147][337]LogBlueprintUserMessages: [BP_Player_C_0] X=53.969 Y=1454.493 Z=700.000
+[2026.01.24-22.40.05:436][371]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-22.40.05:436][371]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 2
+[2026.01.24-22.40.08:790][768]LogBlueprintUserMessages: [BP_Player_C_0] Cool Down
+[2026.01.24-22.40.11:012][ 32]LogBlueprintUserMessages: [BP_Player_C_0] X=-70.278 Y=-775.971 Z=0.000
+[2026.01.24-22.40.11:272][ 63]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 3
+[2026.01.24-22.40.31:481][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.40.31:481][471]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.40.31:481][471]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.40.31:482][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.40.31:485][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.40.31:490][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.40.31:510][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.40.31:510][471]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2026.01.24-22.40.31:510][471]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=4
+[2026.01.24-22.40.31:512][471]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=2
+[2026.01.24-22.40.31:520][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.24-22.40.31:560][472]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.01.24-22.42.04:542][504]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball
+[2026.01.24-22.42.04:543][504]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2026.01.24-22.43.56:032][617]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5902.465332
+[2026.01.24-22.43.56:125][624]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-22.43.56:126][624]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5902.545898, Update Interval: 314.982147
+[2026.01.24-22.44.59:395][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-22.44.59:447][413]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.24-22.44.59:476][413]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.24-22.44.59:476][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.24-22.44.59:497][413]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.24-22.44.59:497][413]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball93A59F954C0AAE526D8FCF8BFAD660A0.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.24-22.44.59:507][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.345 ms (total: 4.12 sec)
+[2026.01.24-22.44.59:551][413]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-22.44.59:551][413]LogContentValidation: Enabled validators:
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-22.44.59:551][413]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-22.44.59:551][413]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.24-22.45.00:113][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.01.24-22.45.00:124][449]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:124][449]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:125][449]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:125][449]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:135][449]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:136][449]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:136][449]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.00:136][449]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.35:691][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-22.45.35:738][196]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.24-22.45.35:765][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.24-22.45.35:765][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.24-22.45.35:782][196]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.24-22.45.35:783][196]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball5B1B9EDC4799EECC40CED694079F51DA.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.24-22.45.35:790][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.557 ms (total: 4.22 sec)
+[2026.01.24-22.45.35:831][196]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-22.45.35:831][196]LogContentValidation: Enabled validators:
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-22.45.35:831][196]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-22.45.35:831][196]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.24-22.45.36:051][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.24-22.45.36:072][208]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:072][208]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:072][208]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:073][208]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:083][208]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:083][208]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:083][208]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.36:083][208]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.38:786][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.45.38:793][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.45.38:815][447]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.45.38:816][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
+[2026.01.24-22.45.38:816][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001827s)
+[2026.01.24-22.45.38:840][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.24-22.45.38:845][447]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.45.38:847][447]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2026.01.24-22.45.38:847][447]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.45.38:847][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.45.38:847][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.45.38:847][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.45.38:847][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.45.38:847][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.45.38:849][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.45.38:873][447]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.45.38:873][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.45.38:873][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.45.38:873][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.45.38:873][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2026.01.24-22.45.38:873][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2026.01.24-22.45.38:874][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2026.01.24-22.45.38:874][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2026.01.24-22.45.38:874][447]LogInit: FAudioDevice initialized with ID 41.
+[2026.01.24-22.45.38:874][447]LogAudio: Display: Audio Device (ID: 41) registered with world 'Field'.
+[2026.01.24-22.45.38:874][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2026.01.24-22.45.38:878][447]LogStreaming: Display: FlushAsyncLoading(576): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.45.38:878][447]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.45.38:879][447]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.38:879][447]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.45.38:879][447]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.45.38
+[2026.01.24-22.45.38:879][447]LogWorld: Bringing up level for play took: 0.000692
+[2026.01.24-22.45.38:881][447]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2026.01.24-22.45.38:886][447]PIE: Server logged in
+[2026.01.24-22.45.38:888][447]PIE: Play in editor total start time 0.095 seconds.
+[2026.01.24-22.45.38:924][448]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.45.44:750][134]LogBlueprintUserMessages: [BP_Player_C_0] X=-73.491 Y=-933.788 Z=0.000
+[2026.01.24-22.45.45:737][251]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.45.48:588][590]LogBlueprintUserMessages: [BP_Player_C_0] Cool Down
+[2026.01.24-22.45.55:814][444]LogBlueprintUserMessages: [BP_Player_C_0] X=-663.141 Y=-1460.193 Z=700.000
+[2026.01.24-22.45.57:032][589]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 2
+[2026.01.24-22.46.02:277][211]LogBlueprintUserMessages: [BP_Player_C_0] X=-316.762 Y=840.504 Z=0.000
+[2026.01.24-22.46.02:724][264]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-22.46.02:725][264]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.46.05:450][588]LogBlueprintUserMessages: [BP_Player_C_0] X=140.839 Y=-1374.600 Z=700.000
+[2026.01.24-22.46.06:372][698]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 3
+[2026.01.24-22.46.08:245][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.46.08:245][918]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.46.08:245][918]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.46.08:246][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.46.08:248][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.46.08:253][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.46.08:274][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.24-22.46.08:274][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2026.01.24-22.46.08:274][918]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=4
+[2026.01.24-22.46.08:276][918]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=2
+[2026.01.24-22.46.08:279][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.46.08:282][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.24-22.46.08:322][919]LogPlayLevel: Display: Destroying online subsystem :Context_62
