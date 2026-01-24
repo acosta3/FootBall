@@ -2680,3 +2680,384 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.24-21.37.09:830][704]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
 [2026.01.24-21.37.09:836][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
 [2026.01.24-21.37.09:876][705]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.01.24-21.37.40:612][537]LogSlate: External Image Picker: DecompressImage failed
+[2026.01.24-21.38.22:627][767]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.24-21.38.22:634][767]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.24-21.39.47:655][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-21.39.47:686][312]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.24-21.39.47:713][312]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.24-21.39.47:713][312]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.24-21.39.47:718][312]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.24-21.39.47:719][312]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_NetD06E051942F9CAAACEBA2CA12ACFC774.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.24-21.39.47:727][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.895 ms (total: 2.00 sec)
+[2026.01.24-21.39.47:777][312]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-21.39.47:777][312]LogContentValidation: Enabled validators:
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-21.39.47:777][312]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-21.39.47:777][312]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.24-21.39.48:133][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.24-21.39.50:553][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-21.39.50:560][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-21.39.50:596][573]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.39.50:598][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002009s)
+[2026.01.24-21.39.50:598][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002054s)
+[2026.01.24-21.39.50:616][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.24-21.39.50:618][573]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-21.39.50:620][573]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2026.01.24-21.39.50:621][573]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-21.39.50:621][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-21.39.50:621][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-21.39.50:621][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-21.39.50:621][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-21.39.50:621][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-21.39.50:622][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-21.39.50:647][573]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-21.39.50:647][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-21.39.50:647][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-21.39.50:647][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-21.39.50:648][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.01.24-21.39.50:648][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.01.24-21.39.50:649][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.01.24-21.39.50:649][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.01.24-21.39.50:649][573]LogInit: FAudioDevice initialized with ID 21.
+[2026.01.24-21.39.50:649][573]LogAudio: Display: Audio Device (ID: 21) registered with world 'Field'.
+[2026.01.24-21.39.50:649][573]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.01.24-21.39.50:653][573]LogStreaming: Display: FlushAsyncLoading(555): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-21.39.50:653][573]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-21.39.50:654][573]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-16.39.50
+[2026.01.24-21.39.50:654][573]LogWorld: Bringing up level for play took: 0.000704
+[2026.01.24-21.39.50:655][573]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.01.24-21.39.50:659][573]PIE: Server logged in
+[2026.01.24-21.39.50:661][573]PIE: Play in editor total start time 0.101 seconds.
+[2026.01.24-21.39.50:696][574]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-21.39.55:096][ 98]LogBlueprintUserMessages: [BP_Player_C_0] X=21.585 Y=-760.850 Z=0.000
+[2026.01.24-21.39.56:489][265]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.39.56:489][265]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.39.58:140][463]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.39.58:140][463]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.03:084][ 56]LogBlueprintUserMessages: [BP_Player_C_0] X=-186.697 Y=-1354.134 Z=700.000
+[2026.01.24-21.40.03:643][123]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.03:643][123]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.04:026][169]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.04:026][169]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.07:103][538]LogBlueprintUserMessages: [BP_Player_C_0] Cool Down
+[2026.01.24-21.40.09:046][771]LogBlueprintUserMessages: [BP_Player_C_0] X=104.891 Y=-1262.323 Z=700.000
+[2026.01.24-21.40.09:279][799]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.09:279][799]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.09:629][841]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.09:629][841]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.12:730][213]LogBlueprintUserMessages: [BP_Player_C_0] X=102.158 Y=-1229.433 Z=700.000
+[2026.01.24-21.40.13:106][258]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.13:106][258]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.13:440][298]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.13:440][298]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.16:533][669]LogBlueprintUserMessages: [BP_Player_C_0] X=-105.798 Y=-1083.886 Z=700.000
+[2026.01.24-21.40.17:100][737]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.17:100][737]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.17:425][776]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.17:425][776]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.20:295][118]LogBlueprintUserMessages: [BP_Player_C_0] X=-97.204 Y=-995.840 Z=700.000
+[2026.01.24-21.40.21:321][241]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.21:321][241]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.21:855][305]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.21:855][305]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.24:655][641]LogBlueprintUserMessages: [BP_Player_C_0] X=42.464 Y=-765.511 Z=0.000
+[2026.01.24-21.40.25:181][704]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.25:181][704]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.26:297][838]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.26:297][838]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.27:698][  6]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.27:698][  6]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.28:566][110]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.28:566][110]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.29:099][174]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.29:099][174]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.30:225][309]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.30:225][309]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.30:701][366]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.40.30:701][366]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.40.31:655][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.40.31:655][476]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.40.31:655][476]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-21.40.31:656][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.40.31:660][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-21.40.31:665][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.40.31:684][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.40.31:684][476]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.01.24-21.40.31:684][476]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2026.01.24-21.40.31:686][476]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2026.01.24-21.40.31:691][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.24-21.40.31:728][477]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.01.24-21.40.51:889][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-21.40.51:934][257]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.24-21.40.51:961][257]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.24-21.40.51:961][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.24-21.40.51:966][257]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.24-21.40.51:966][257]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_NetA31CBC3F488D22D51A3D7B95ACB1E071.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.24-21.40.51:975][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.719 ms (total: 2.08 sec)
+[2026.01.24-21.40.52:029][257]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-21.40.52:029][257]LogContentValidation: Enabled validators:
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-21.40.52:029][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-21.40.52:029][257]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.24-21.40.52:460][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.01.24-21.40.55:130][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-21.40.55:136][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-21.40.55:175][553]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.40.55:177][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2026.01.24-21.40.55:177][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001912s)
+[2026.01.24-21.40.55:194][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.24-21.40.55:197][553]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-21.40.55:199][553]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2026.01.24-21.40.55:199][553]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-21.40.55:200][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-21.40.55:200][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-21.40.55:200][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-21.40.55:200][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-21.40.55:200][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-21.40.55:201][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-21.40.55:221][553]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-21.40.55:221][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-21.40.55:221][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-21.40.55:221][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-21.40.55:221][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.01.24-21.40.55:221][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.01.24-21.40.55:222][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.01.24-21.40.55:222][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.01.24-21.40.55:222][553]LogInit: FAudioDevice initialized with ID 22.
+[2026.01.24-21.40.55:222][553]LogAudio: Display: Audio Device (ID: 22) registered with world 'Field'.
+[2026.01.24-21.40.55:222][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.01.24-21.40.55:227][553]LogStreaming: Display: FlushAsyncLoading(556): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-21.40.55:227][553]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-21.40.55:228][553]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-16.40.55
+[2026.01.24-21.40.55:228][553]LogWorld: Bringing up level for play took: 0.000637
+[2026.01.24-21.40.55:230][553]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.01.24-21.40.55:234][553]PIE: Server logged in
+[2026.01.24-21.40.55:235][553]PIE: Play in editor total start time 0.099 seconds.
+[2026.01.24-21.40.55:269][554]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-21.40.59:307][ 35]LogBlueprintUserMessages: [BP_Player_C_0] X=-137.756 Y=-759.906 Z=0.000
+[2026.01.24-21.41.00:258][149]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.00:258][149]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.04:051][604]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.04:051][604]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.07:028][961]LogBlueprintUserMessages: [BP_Player_C_0] X=-342.511 Y=-1471.853 Z=700.000
+[2026.01.24-21.41.07:328][997]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.07:329][997]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.12:645][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.41.12:645][631]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.41.12:645][631]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-21.41.12:646][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.41.12:650][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-21.41.12:654][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.41.12:671][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.24-21.41.12:671][631]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.01.24-21.41.12:671][631]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2026.01.24-21.41.12:673][631]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2026.01.24-21.41.12:678][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.41.12:680][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.01.24-21.41.12:718][632]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.01.24-21.41.13:076][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2139.658447
+[2026.01.24-21.41.13:179][683]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-21.41.13:179][683]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2139.750977, Update Interval: 338.198792
+[2026.01.24-21.41.34:672][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-21.41.34:719][556]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.24-21.41.34:748][556]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.24-21.41.34:748][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.24-21.41.34:754][556]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.24-21.41.34:754][556]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_NetF906509844FD98AFAF5CE080AA96DBC4.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.24-21.41.34:762][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.282 ms (total: 2.17 sec)
+[2026.01.24-21.41.34:814][556]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-21.41.34:814][556]LogContentValidation: Enabled validators:
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-21.41.34:814][556]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-21.41.34:814][556]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.24-21.41.35:138][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.01.24-21.41.38:584][903]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-21.41.38:589][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-21.41.38:633][903]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.41.38:636][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002302s)
+[2026.01.24-21.41.38:637][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002356s)
+[2026.01.24-21.41.38:656][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.24-21.41.38:659][903]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-21.41.38:660][903]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2026.01.24-21.41.38:661][903]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-21.41.38:661][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-21.41.38:661][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-21.41.38:661][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-21.41.38:661][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-21.41.38:661][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-21.41.38:662][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-21.41.38:682][903]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-21.41.38:682][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-21.41.38:682][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-21.41.38:682][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-21.41.38:683][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.01.24-21.41.38:683][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.01.24-21.41.38:684][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.01.24-21.41.38:684][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.01.24-21.41.38:684][903]LogInit: FAudioDevice initialized with ID 23.
+[2026.01.24-21.41.38:685][903]LogAudio: Display: Audio Device (ID: 23) registered with world 'Field'.
+[2026.01.24-21.41.38:685][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.01.24-21.41.38:688][903]LogStreaming: Display: FlushAsyncLoading(557): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-21.41.38:688][903]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-21.41.38:689][903]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-16.41.38
+[2026.01.24-21.41.38:689][903]LogWorld: Bringing up level for play took: 0.000852
+[2026.01.24-21.41.38:691][903]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.01.24-21.41.38:694][903]PIE: Server logged in
+[2026.01.24-21.41.38:696][903]PIE: Play in editor total start time 0.107 seconds.
+[2026.01.24-21.41.38:728][904]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-21.41.43:760][504]LogBlueprintUserMessages: [BP_Player_C_0] X=111.144 Y=-764.196 Z=0.000
+[2026.01.24-21.41.44:828][632]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.44:828][632]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.45:110][666]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.45:110][666]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.45:419][703]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.41.45:419][703]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.41.48:395][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.41.48:395][ 56]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.41.48:395][ 56]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-21.41.48:395][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.41.48:399][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-21.41.48:404][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.41.48:421][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.41.48:421][ 56]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.01.24-21.41.48:421][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2026.01.24-21.41.48:423][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2026.01.24-21.41.48:431][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.01.24-21.41.48:469][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.01.24-21.43.00:082][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-21.43.00:132][605]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.24-21.43.00:160][605]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.24-21.43.00:160][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.24-21.43.00:165][605]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.24-21.43.00:166][605]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net96D942C34E877D60C4B91A8A887B5803.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.24-21.43.00:174][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.683 ms (total: 2.27 sec)
+[2026.01.24-21.43.00:223][605]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-21.43.00:223][605]LogContentValidation: Enabled validators:
+[2026.01.24-21.43.00:223][605]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-21.43.00:224][605]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-21.43.00:224][605]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-21.43.00:224][605]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-21.43.00:224][605]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-21.43.00:224][605]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-21.43.00:224][605]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.24-21.43.00:639][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.01.24-21.43.02:915][851]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-21.43.02:921][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-21.43.02:962][851]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.43.02:965][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002280s)
+[2026.01.24-21.43.02:965][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002333s)
+[2026.01.24-21.43.02:985][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.01.24-21.43.02:989][851]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-21.43.02:990][851]LogPlayLevel: PIE: World Init took: (0.001563s)
+[2026.01.24-21.43.02:990][851]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-21.43.02:990][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-21.43.02:990][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-21.43.02:990][851]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-21.43.02:990][851]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-21.43.02:990][851]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-21.43.02:993][851]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-21.43.03:015][851]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-21.43.03:015][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-21.43.03:015][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-21.43.03:015][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-21.43.03:015][851]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.01.24-21.43.03:015][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.01.24-21.43.03:017][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.01.24-21.43.03:017][851]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.01.24-21.43.03:017][851]LogInit: FAudioDevice initialized with ID 24.
+[2026.01.24-21.43.03:017][851]LogAudio: Display: Audio Device (ID: 24) registered with world 'Field'.
+[2026.01.24-21.43.03:017][851]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.01.24-21.43.03:020][851]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-21.43.03:020][851]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-21.43.03:021][851]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-16.43.03
+[2026.01.24-21.43.03:021][851]LogWorld: Bringing up level for play took: 0.000709
+[2026.01.24-21.43.03:022][851]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.01.24-21.43.03:026][851]PIE: Server logged in
+[2026.01.24-21.43.03:028][851]PIE: Play in editor total start time 0.108 seconds.
+[2026.01.24-21.43.03:062][852]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-21.43.07:463][376]LogBlueprintUserMessages: [BP_Player_C_0] X=-89.401 Y=-772.672 Z=0.000
+[2026.01.24-21.43.08:522][503]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.43.08:522][503]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.43.08:797][536]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.43.08:797][536]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.43.09:147][578]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.43.09:147][578]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.43.13:667][120]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.43.13:667][120]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.43.13:683][122]LogBlueprintUserMessages: [BP_Net_C_1] Score
+[2026.01.24-21.43.13:683][122]LogBlueprintUserMessages: [BP_Net_C_1] 1
+[2026.01.24-21.43.19:332][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.43.19:333][796]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-21.43.19:333][796]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-21.43.19:333][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.43.19:337][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-21.43.19:341][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-21.43.19:360][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-21.43.19:360][796]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.01.24-21.43.19:360][796]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2026.01.24-21.43.19:362][796]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2026.01.24-21.43.19:369][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.01.24-21.43.19:412][797]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.01.24-21.43.35:424][266]LogEditorTransaction: Undo Create Pin Link
+[2026.01.24-21.43.55:557][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-21.43.55:595][ 42]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.24-21.43.55:622][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.24-21.43.55:622][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.24-21.43.55:627][ 42]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.24-21.43.55:628][ 42]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net0FEBB19448EFD811F4964D8A39034652.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.24-21.43.55:635][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.788 ms (total: 2.35 sec)
+[2026.01.24-21.43.55:674][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-21.43.55:674][ 42]LogContentValidation: Enabled validators:
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-21.43.55:675][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-21.43.55:675][ 42]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.24-21.43.56:115][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
