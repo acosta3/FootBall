@@ -5314,3 +5314,1027 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.24-22.46.08:279][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.01.24-22.46.08:282][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
 [2026.01.24-22.46.08:322][919]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2026.01.24-22.48.56:000][105]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.48.56:008][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.48.56:042][105]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.48.56:044][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002086s)
+[2026.01.24-22.48.56:044][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002139s)
+[2026.01.24-22.48.56:074][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.01.24-22.48.56:076][105]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.48.56:077][105]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2026.01.24-22.48.56:078][105]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.48.56:078][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.48.56:078][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.48.56:078][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.48.56:078][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.48.56:078][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.48.56:079][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.48.56:103][105]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.48.56:104][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.48.56:104][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.48.56:104][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.48.56:104][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2026.01.24-22.48.56:104][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2026.01.24-22.48.56:106][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2026.01.24-22.48.56:106][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2026.01.24-22.48.56:106][105]LogInit: FAudioDevice initialized with ID 42.
+[2026.01.24-22.48.56:106][105]LogAudio: Display: Audio Device (ID: 42) registered with world 'Field'.
+[2026.01.24-22.48.56:106][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2026.01.24-22.48.56:109][105]LogStreaming: Display: FlushAsyncLoading(577): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.48.56:109][105]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.48.56:110][105]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.48.56:110][105]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.48.56:110][105]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.48.56
+[2026.01.24-22.48.56:110][105]LogWorld: Bringing up level for play took: 0.000732
+[2026.01.24-22.48.56:112][105]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2026.01.24-22.48.56:116][105]PIE: Server logged in
+[2026.01.24-22.48.56:118][105]PIE: Play in editor total start time 0.11 seconds.
+[2026.01.24-22.48.56:153][106]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.49.00:576][603]LogBlueprintUserMessages: [BP_Player_C_0] X=-79.961 Y=-751.314 Z=0.000
+[2026.01.24-22.49.01:634][728]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.49.02:761][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.02:762][857]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.49.02:762][857]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.49.02:762][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.02:765][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.49.02:769][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.02:789][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.02:789][857]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2026.01.24-22.49.02:789][857]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=4
+[2026.01.24-22.49.02:791][857]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=2
+[2026.01.24-22.49.02:795][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.01.24-22.49.02:838][858]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2026.01.24-22.49.03:856][965]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.49.03:862][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.49.03:891][965]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.49.03:893][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001915s)
+[2026.01.24-22.49.03:893][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001959s)
+[2026.01.24-22.49.03:915][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.01.24-22.49.03:917][965]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.49.03:918][965]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2026.01.24-22.49.03:920][965]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.49.03:920][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.49.03:920][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.49.03:920][965]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.49.03:920][965]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.49.03:920][965]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.49.03:921][965]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.49.03:942][965]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.49.03:942][965]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.49.03:942][965]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.49.03:942][965]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.49.03:942][965]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2026.01.24-22.49.03:942][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2026.01.24-22.49.03:944][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2026.01.24-22.49.03:944][965]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2026.01.24-22.49.03:944][965]LogInit: FAudioDevice initialized with ID 43.
+[2026.01.24-22.49.03:944][965]LogAudio: Display: Audio Device (ID: 43) registered with world 'Field'.
+[2026.01.24-22.49.03:944][965]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2026.01.24-22.49.03:947][965]LogStreaming: Display: FlushAsyncLoading(578): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.49.03:948][965]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.49.03:948][965]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.49.03:948][965]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.49.03:948][965]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.49.03
+[2026.01.24-22.49.03:949][965]LogWorld: Bringing up level for play took: 0.000718
+[2026.01.24-22.49.03:950][965]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2026.01.24-22.49.03:955][965]PIE: Server logged in
+[2026.01.24-22.49.03:957][965]PIE: Play in editor total start time 0.094 seconds.
+[2026.01.24-22.49.03:991][966]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.49.08:183][460]LogBlueprintUserMessages: [BP_Player_C_0] X=-80.476 Y=-2248.293 Z=700.000
+[2026.01.24-22.49.08:479][495]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.49.09:412][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.09:412][601]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.49.09:412][601]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.49.09:413][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.09:416][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.49.09:420][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.09:441][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.09:441][601]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2026.01.24-22.49.09:441][601]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=4
+[2026.01.24-22.49.09:443][601]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=2
+[2026.01.24-22.49.09:449][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.24-22.49.09:494][602]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2026.01.24-22.49.10:646][723]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-22.49.10:652][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-22.49.10:653][723]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.49.10:654][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001921s)
+[2026.01.24-22.49.10:655][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001955s)
+[2026.01.24-22.49.10:678][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.24-22.49.10:681][723]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-22.49.10:682][723]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2026.01.24-22.49.10:683][723]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-22.49.10:683][723]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-22.49.10:683][723]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-22.49.10:683][723]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-22.49.10:683][723]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-22.49.10:683][723]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-22.49.10:684][723]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-22.49.10:705][723]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-22.49.10:705][723]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-22.49.10:705][723]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-22.49.10:705][723]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-22.49.10:705][723]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2026.01.24-22.49.10:705][723]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2026.01.24-22.49.10:707][723]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2026.01.24-22.49.10:707][723]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2026.01.24-22.49.10:707][723]LogInit: FAudioDevice initialized with ID 44.
+[2026.01.24-22.49.10:707][723]LogAudio: Display: Audio Device (ID: 44) registered with world 'Field'.
+[2026.01.24-22.49.10:707][723]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2026.01.24-22.49.10:710][723]LogStreaming: Display: FlushAsyncLoading(579): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-22.49.10:710][723]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-22.49.10:711][723]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.49.10:711][723]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-22.49.10:711][723]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-17.49.10
+[2026.01.24-22.49.10:711][723]LogWorld: Bringing up level for play took: 0.000692
+[2026.01.24-22.49.10:713][723]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2026.01.24-22.49.10:717][723]PIE: Server logged in
+[2026.01.24-22.49.10:719][723]PIE: Play in editor total start time 0.067 seconds.
+[2026.01.24-22.49.10:753][724]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-22.49.14:856][205]LogBlueprintUserMessages: [BP_Player_C_0] X=-169.355 Y=-783.295 Z=0.000
+[2026.01.24-22.49.15:371][266]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-22.49.16:362][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.16:362][380]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-22.49.16:362][380]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-22.49.16:362][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.16:365][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-22.49.16:370][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-22.49.16:389][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-22.49.16:389][380]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2026.01.24-22.49.16:389][380]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=4
+[2026.01.24-22.49.16:391][380]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=2
+[2026.01.24-22.49.16:397][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.01.24-22.49.16:439][381]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2026.01.24-22.49.21:029][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.01.24-22.49.21:215][753]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.01.24-22.49.21:221][753]LogSlate: Took 0.003776 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.01.24-22.49.22:368][753]LogSlate: Window 'Delete Assets' being destroyed
+[2026.01.24-22.49.22:443][753]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/MyStuff/Blueprints/BP_NewBall.BP_NewBall
+	Asset Type: Blueprint
+[2026.01.24-22.49.22:678][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.01.24-22.49.22:744][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.24-22.49.22:768][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.01.24-22.49.22:791][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.01.24-22.49.56:629][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6263.036621
+[2026.01.24-22.49.56:748][381]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-22.49.56:748][381]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6263.141602, Update Interval: 354.554260
+[2026.01.24-22.50.30:159][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.01.24-22.50.30:161][ 69]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/Level/Field' took 0.021
+[2026.01.24-22.50.30:161][ 69]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.24-22.50.30:265][ 69]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.24-22.50.30:265][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.24-22.50.30:285][ 69]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto5
+[2026.01.24-22.50.30:285][ 69]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball_Auto5C89818394CFB3D8BD763688C02A78151.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto5.uasset'
+[2026.01.24-22.50.30:286][ 69]LogFileHelpers: Auto-saving content packages took 0.125
+[2026.01.24-22.56.36:478][995]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6662.895508
+[2026.01.24-22.56.37:478][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-22.56.37:478][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6663.563477, Update Interval: 313.502625
+[2026.01.24-23.02.41:534][ 91]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7027.947266
+[2026.01.24-23.02.42:534][ 93]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.02.42:534][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7028.615234, Update Interval: 342.617279
+[2026.01.24-23.05.04:057][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.24-23.05.04:103][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.24-23.05.04:103][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.24-23.05.04:122][349]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.24-23.05.04:123][349]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball1BD93CAC401352795D7902A42A01BAF2.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.24-23.05.04:134][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.498 ms (total: 4.30 sec)
+[2026.01.24-23.05.04:180][349]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.24-23.05.04:180][349]LogContentValidation: Enabled validators:
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.24-23.05.04:180][349]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.24-23.05.04:180][349]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.24-23.05.07:869][679]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.24-23.05.07:877][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.24-23.05.07:904][679]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-23.05.07:907][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002039s)
+[2026.01.24-23.05.07:907][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002091s)
+[2026.01.24-23.05.07:934][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.01.24-23.05.07:935][679]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.24-23.05.07:937][679]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2026.01.24-23.05.07:938][679]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.24-23.05.07:938][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.24-23.05.07:938][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.24-23.05.07:938][679]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.24-23.05.07:938][679]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.24-23.05.07:938][679]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.24-23.05.07:940][679]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.24-23.05.07:962][679]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.24-23.05.07:963][679]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.24-23.05.07:963][679]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.24-23.05.07:963][679]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.24-23.05.07:964][679]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2026.01.24-23.05.07:964][679]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2026.01.24-23.05.07:965][679]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2026.01.24-23.05.07:965][679]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2026.01.24-23.05.07:965][679]LogInit: FAudioDevice initialized with ID 45.
+[2026.01.24-23.05.07:965][679]LogAudio: Display: Audio Device (ID: 45) registered with world 'Field'.
+[2026.01.24-23.05.07:965][679]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2026.01.24-23.05.07:969][679]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.24-23.05.07:969][679]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.24-23.05.07:970][679]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-23.05.07:970][679]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.24-23.05.07:970][679]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.24-18.05.07
+[2026.01.24-23.05.07:970][679]LogWorld: Bringing up level for play took: 0.000975
+[2026.01.24-23.05.07:972][679]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2026.01.24-23.05.07:976][679]PIE: Server logged in
+[2026.01.24-23.05.07:978][679]PIE: Play in editor total start time 0.101 seconds.
+[2026.01.24-23.05.08:015][680]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.24-23.05.11:690][113]LogBlueprintUserMessages: [BP_Player_C_0] X=-186.570 Y=-917.022 Z=0.000
+[2026.01.24-23.05.12:722][235]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-23.05.16:549][687]LogBlueprintUserMessages: [BP_Player_C_0] X=-239.402 Y=1364.679 Z=700.000
+[2026.01.24-23.05.16:751][711]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-23.05.16:751][711]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 1
+[2026.01.24-23.05.21:643][291]LogBlueprintUserMessages: [BP_Player_C_0] Cool Down
+[2026.01.24-23.05.54:540][189]LogBlueprintUserMessages: [BP_Player_C_0] Cool Down
+[2026.01.24-23.05.58:208][623]LogBlueprintUserMessages: [BP_Player_C_0] X=429.343 Y=1482.639 Z=700.000
+[2026.01.24-23.05.58:648][675]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] P2 + 
+[2026.01.24-23.05.58:649][675]LogBlueprintUserMessages: [BP_FootballGameMode_C_0] 2
+[2026.01.24-23.07.30:474][622]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.24-23.09.23:213][929]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7428.532227
+[2026.01.24-23.09.23:323][941]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.09.23:323][941]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7428.633301, Update Interval: 331.927246
+[2026.01.24-23.10.11:839][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-23.10.11:839][718]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.24-23.10.11:839][718]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.24-23.10.11:839][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-23.10.11:844][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.24-23.10.11:849][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.24-23.10.11:869][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.24-23.10.11:870][718]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2026.01.24-23.10.11:870][718]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=4
+[2026.01.24-23.10.11:872][718]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=2
+[2026.01.24-23.10.11:879][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.01.24-23.10.11:926][719]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2026.01.24-23.15.42:169][850]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7807.491211
+[2026.01.24-23.15.43:167][853]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.15.43:167][853]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7808.155273, Update Interval: 315.493042
+[2026.01.24-23.21.31:556][898]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8156.876953
+[2026.01.24-23.21.32:557][901]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.21.32:557][901]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8157.543945, Update Interval: 356.074097
+[2026.01.24-23.23.37:706][276]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2026.01.24-23.23.37:724][277]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.37:724][277]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.37:784][277]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.37:784][277]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.37:784][277]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.37:865][277]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.37:865][277]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.37:865][277]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.37:935][277]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.37:936][277]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.37:936][277]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:013][277]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:013][277]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.38:013][277]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:041][277]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.24-23.23.38:041][277]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.24-23.23.38:041][277]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.24-23.23.38:073][278]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:073][278]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.23.38:073][278]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:156][278]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:156][278]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.23.38:157][278]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:227][278]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:227][278]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.23.38:227][278]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:303][278]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:303][278]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.23.38:303][278]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:376][278]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.24-23.23.38:376][278]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.24-23.23.38:376][278]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.23.38:376][278]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.24-23.23.38:377][278]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.24-23.23.38:377][278]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.24-23.23.38:378][278]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.38:378][278]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.38:378][278]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.24-23.23.38:708][279]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.24-23.23.38:708][279]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.24-23.23.38:708][279]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.24-23.23.39:041][280]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.23.39:043][280]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.24-23.23.39:043][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.24-23.23.39:043][280]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.23.39:043][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.24-23.23.39:043][280]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.24-23.23.39:044][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.24-23.23.41:772][289]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.41:772][289]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.41:827][289]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.23.41:828][289]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.41:828][289]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.41:912][289]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.24-23.23.41:913][289]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.23.41:913][289]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.42:042][289]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.24-23.23.42:042][289]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.24-23.23.42:042][289]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.24-23.23.42:101][290]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.24-23.23.42:101][290]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.23.42:101][290]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.23.42:375][290]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.23.42:377][290]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.24-23.23.42:377][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.24-23.23.42:377][290]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.23.42:377][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.24-23.23.42:377][290]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.24-23.23.42:378][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.24-23.28.10:810][ 81]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8556.129883
+[2026.01.24-23.28.11:837][ 84]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.28.11:837][ 84]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8556.812500, Update Interval: 300.120850
+[2026.01.24-23.33.37:201][ 43]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:201][ 43]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:260][ 43]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:260][ 43]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.33.37:260][ 43]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:291][ 43]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.24-23.33.37:291][ 43]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.24-23.33.37:291][ 43]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.24-23.33.37:334][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:334][ 44]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.33.37:334][ 44]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:395][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:395][ 44]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.33.37:395][ 44]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:459][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:459][ 44]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.33.37:459][ 44]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:519][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:519][ 44]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.33.37:519][ 44]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:603][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:603][ 44]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.24-23.33.37:603][ 44]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:634][ 44]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.24-23.33.37:635][ 44]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.24-23.33.37:637][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.24-23.33.37:665][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:665][ 45]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:730][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:731][ 45]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.33.37:731][ 45]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:797][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.24-23.33.37:797][ 45]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.24-23.33.37:797][ 45]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.24-23.33.37:967][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.24-23.33.37:967][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.24-23.33.37:967][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.24-23.33.38:307][ 46]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.33.38:308][ 46]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.24-23.33.38:308][ 46]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.24-23.33.38:308][ 46]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.24-23.33.38:308][ 46]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.24-23.33.38:308][ 46]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.24-23.33.38:310][ 46]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.24-23.33.51:877][ 86]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8897.196289
+[2026.01.24-23.33.52:882][ 89]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.33.52:883][ 89]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8897.867188, Update Interval: 347.835938
+[2026.01.24-23.40.29:028][257]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9294.333008
+[2026.01.24-23.40.30:059][260]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.40.30:059][260]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9295.023438, Update Interval: 354.838104
+[2026.01.24-23.46.55:858][397]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9681.159180
+[2026.01.24-23.46.56:885][400]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.46.56:885][400]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9681.841797, Update Interval: 301.605896
+[2026.01.24-23.52.30:474][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10015.765625
+[2026.01.24-23.52.31:500][387]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.52.31:500][387]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10016.447266, Update Interval: 326.309387
+[2026.01.24-23.58.28:997][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10374.285156
+[2026.01.24-23.58.30:002][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.24-23.58.30:002][444]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10374.962891, Update Interval: 311.951660
+[2026.01.25-00.04.19:805][475]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10725.094727
+[2026.01.25-00.04.20:838][478]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.04.20:838][478]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10725.785156, Update Interval: 356.262695
+[2026.01.25-00.07.31:523][ 41]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-00.11.16:590][704]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11141.870117
+[2026.01.25-00.11.17:601][707]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.11.17:601][707]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11142.543945, Update Interval: 309.838562
+[2026.01.25-00.17.15:462][762]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11500.735352
+[2026.01.25-00.17.16:480][765]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.17.16:480][765]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11501.410156, Update Interval: 322.438416
+[2026.01.25-00.23.29:554][865]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11874.824219
+[2026.01.25-00.23.30:569][868]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.23.30:569][868]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11875.500977, Update Interval: 326.311218
+[2026.01.25-00.29.40:864][959]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12246.133789
+[2026.01.25-00.29.41:892][962]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.29.41:892][962]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12246.814453, Update Interval: 306.701874
+[2026.01.25-00.35.20:787][961]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12586.071289
+[2026.01.25-00.35.21:800][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.35.21:800][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12586.750000, Update Interval: 340.505981
+[2026.01.25-00.38.03:501][441]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.38.03:502][441]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.38.03:573][441]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.38.03:573][441]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.38.03:573][441]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.38.03:606][441]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.38.03:606][441]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.38.03:606][441]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.38.03:661][442]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-00.38.03:661][442]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.38.03:661][442]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.38.03:858][442]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-00.38.03:858][442]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.38.03:858][442]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.38.03:947][442]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.38.03:948][442]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.38.03:948][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.38.03:948][442]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.38.03:948][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.38.03:948][442]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.38.03:948][442]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.25-00.38.03:949][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-00.42.01:118][140]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12986.395508
+[2026.01.25-00.42.02:132][143]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.42.02:132][143]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12987.066406, Update Interval: 322.189392
+[2026.01.25-00.47.59:913][198]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.47.59:913][198]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.47.59:974][198]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.47.59:974][198]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.47.59:974][198]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:049][198]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:049][198]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.48.00:049][198]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:108][198]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:108][198]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.48.00:108][198]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:111][198]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.48.00:111][198]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.48.00:111][198]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.48.00:176][199]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:176][199]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.00:176][199]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:237][199]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:237][199]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.00:237][199]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:313][199]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:313][199]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.00:313][199]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:381][199]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:382][199]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.00:382][199]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:455][199]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:455][199]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.00:455][199]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:462][199]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.00:465][199]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.48.00:465][199]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.48.00:465][199]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.00:465][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.48.00:465][199]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.48.00:465][199]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.25-00.48.00:466][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-00.48.00:526][200]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.00:526][200]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.00:785][200]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.48.00:785][200]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.48.00:785][200]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.48.01:125][201]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.01:128][201]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.48.01:128][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.48.01:128][201]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.01:128][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.48.01:128][201]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.48.01:130][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-00.48.04:526][212]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.04:526][212]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.04:586][212]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.48.04:586][212]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.48.04:586][212]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.04:669][212]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-00.48.04:669][212]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.48.04:669][212]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.04:847][212]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.48.04:847][212]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.48.04:847][212]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.48.04:856][213]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-00.48.04:856][213]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.48.04:856][213]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.48.05:180][213]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.05:181][213]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.48.05:181][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.48.05:181][213]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.48.05:181][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.48.05:181][213]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.48.05:183][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-00.48.20:430][258]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13365.698242
+[2026.01.25-00.48.21:454][261]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.48.21:454][261]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13366.376953, Update Interval: 358.872040
+[2026.01.25-00.55.09:165][464]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13774.430664
+[2026.01.25-00.55.10:183][466]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-00.55.10:183][466]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13775.119141, Update Interval: 321.328766
+[2026.01.25-00.58.00:022][967]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:022][967]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:084][967]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:084][967]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.58.00:084][967]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:119][967]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.58.00:119][967]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.58.00:119][967]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.58.00:159][968]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:159][968]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.58.00:159][968]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:219][968]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:220][968]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.58.00:220][968]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:288][968]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:288][968]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.58.00:288][968]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:349][968]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:349][968]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.58.00:349][968]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:419][968]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:419][968]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-00.58.00:419][968]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:451][968]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.58.00:453][968]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.58.00:453][968]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.58.00:453][968]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.58.00:453][968]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.58.00:453][968]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.58.00:453][968]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.25-00.58.00:454][968]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-00.58.00:492][969]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:492][969]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:565][969]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:565][969]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.58.00:565][969]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:634][969]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-00.58.00:634][969]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-00.58.00:634][969]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-00.58.00:785][969]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-00.58.00:785][969]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-00.58.00:785][969]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-00.58.01:126][970]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.58.01:127][970]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-00.58.01:127][970]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-00.58.01:127][970]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-00.58.01:127][970]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-00.58.01:127][970]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-00.58.01:129][970]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-01.01.25:725][573]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14150.996094
+[2026.01.25-01.01.26:738][576]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.01.26:738][576]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14151.666992, Update Interval: 322.491516
+[2026.01.25-01.07.27:782][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14513.058594
+[2026.01.25-01.07.28:801][644]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.07.28:801][644]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14513.744141, Update Interval: 336.660675
+[2026.01.25-01.07.31:527][653]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-01.13.45:744][755]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14891.004883
+[2026.01.25-01.13.46:765][758]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.13.46:765][758]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14891.688477, Update Interval: 309.353302
+[2026.01.25-01.19.53:857][840]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15259.114258
+[2026.01.25-01.19.54:873][843]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.19.54:873][843]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15259.785156, Update Interval: 336.287109
+[2026.01.25-01.26.22:199][985]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15647.457031
+[2026.01.25-01.26.23:200][988]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.26.23:200][988]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15648.127930, Update Interval: 328.457275
+[2026.01.25-01.32.30:373][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16015.644531
+[2026.01.25-01.32.31:375][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.32.31:375][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16016.311523, Update Interval: 305.854065
+[2026.01.25-01.38.15:571][ 87]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16360.844727
+[2026.01.25-01.38.16:583][ 90]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.38.16:583][ 90]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16361.517578, Update Interval: 352.627960
+[2026.01.25-01.45.00:497][281]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16765.789062
+[2026.01.25-01.45.01:518][284]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.45.01:518][284]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16766.460938, Update Interval: 318.931854
+[2026.01.25-01.50.54:236][324]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17119.556641
+[2026.01.25-01.50.55:254][327]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.50.55:254][328]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17120.234375, Update Interval: 306.930756
+[2026.01.25-01.56.56:120][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17481.419922
+[2026.01.25-01.56.57:141][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-01.56.57:141][394]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17482.099609, Update Interval: 327.660767
+[2026.01.25-02.03.15:064][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17860.363281
+[2026.01.25-02.03.16:081][511]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.03.16:081][511]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17861.050781, Update Interval: 359.544067
+[2026.01.25-02.07.31:535][265]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-02.09.46:691][663]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18251.998047
+[2026.01.25-02.09.47:704][667]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.09.47:704][667]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18252.671875, Update Interval: 335.560181
+[2026.01.25-02.16.02:876][772]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18628.222656
+[2026.01.25-02.16.03:906][775]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.16.03:907][775]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18628.908203, Update Interval: 331.938232
+[2026.01.25-02.22.13:744][865]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18999.089844
+[2026.01.25-02.22.14:777][868]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.22.14:777][868]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18999.775391, Update Interval: 324.342773
+[2026.01.25-02.28.37:164][995]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19382.486328
+[2026.01.25-02.28.38:161][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.28.38:161][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19383.154297, Update Interval: 315.311737
+[2026.01.25-02.34.35:895][ 52]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19741.220703
+[2026.01.25-02.34.36:922][ 55]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.34.36:922][ 55]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19741.904297, Update Interval: 356.645416
+[2026.01.25-02.41.14:387][227]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20139.720703
+[2026.01.25-02.41.15:389][230]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.41.15:389][230]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20140.394531, Update Interval: 350.088196
+[2026.01.25-02.47.52:533][401]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20537.849609
+[2026.01.25-02.47.53:544][404]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.47.53:544][404]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20538.521484, Update Interval: 346.519348
+[2026.01.25-02.54.21:894][548]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20927.195312
+[2026.01.25-02.54.22:924][551]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-02.54.22:924][552]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20927.884766, Update Interval: 355.358124
+[2026.01.25-03.01.03:957][733]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21329.263672
+[2026.01.25-03.01.04:969][736]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.01.04:969][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21329.935547, Update Interval: 339.575806
+[2026.01.25-03.07.30:201][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21715.525391
+[2026.01.25-03.07.31:215][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.07.31:215][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21716.207031, Update Interval: 325.197906
+[2026.01.25-03.07.31:549][875]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-03.13.53:348][  0]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22098.664062
+[2026.01.25-03.13.54:377][  3]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.13.54:377][  3]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22099.345703, Update Interval: 314.650726
+[2026.01.25-03.19.44:827][ 36]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22450.144531
+[2026.01.25-03.19.45:841][ 40]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.19.45:841][ 40]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22450.818359, Update Interval: 358.668793
+[2026.01.25-03.26.20:003][202]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22845.339844
+[2026.01.25-03.26.21:006][204]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.26.21:006][204]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22846.013672, Update Interval: 348.881500
+[2026.01.25-03.32.53:883][361]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23239.216797
+[2026.01.25-03.32.54:887][364]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.32.54:887][365]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23239.892578, Update Interval: 300.402832
+[2026.01.25-03.38.44:889][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23590.214844
+[2026.01.25-03.38.45:889][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.38.45:889][398]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23590.882812, Update Interval: 338.026672
+[2026.01.25-03.44.56:640][490]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23961.988281
+[2026.01.25-03.44.57:659][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.44.57:659][493]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23962.666016, Update Interval: 358.672455
+[2026.01.25-03.51.38:701][674]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24364.070312
+[2026.01.25-03.51.39:727][677]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.51.39:727][677]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24364.753906, Update Interval: 353.975647
+[2026.01.25-03.58.26:504][875]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24771.849609
+[2026.01.25-03.58.27:519][878]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-03.58.27:519][878]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24772.525391, Update Interval: 317.759949
+[2026.01.25-04.04.35:328][961]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25140.669922
+[2026.01.25-04.04.36:341][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.04.36:341][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25141.337891, Update Interval: 351.243622
+[2026.01.25-04.07.31:562][481]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-04.11.14:777][138]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25540.132812
+[2026.01.25-04.11.15:805][141]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.11.15:805][141]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25540.812500, Update Interval: 331.583008
+[2026.01.25-04.17.34:658][257]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25920.007812
+[2026.01.25-04.17.35:683][260]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.17.35:683][260]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25920.695312, Update Interval: 304.385498
+[2026.01.25-04.23.25:066][289]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26270.419922
+[2026.01.25-04.23.26:086][292]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.23.26:086][292]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26271.091797, Update Interval: 315.355682
+[2026.01.25-04.29.23:336][345]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26628.664062
+[2026.01.25-04.29.24:350][348]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.29.24:350][348]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26629.337891, Update Interval: 328.188110
+[2026.01.25-04.35.50:421][486]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27015.779297
+[2026.01.25-04.35.51:435][489]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.35.51:435][489]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27016.447266, Update Interval: 322.262634
+[2026.01.25-04.42.04:652][589]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27389.998047
+[2026.01.25-04.42.05:663][592]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.42.05:663][592]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27390.667969, Update Interval: 302.486633
+[2026.01.25-04.48.06:300][654]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27751.640625
+[2026.01.25-04.48.07:316][657]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.48.07:317][657]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27752.320312, Update Interval: 301.922668
+[2026.01.25-04.53.45:617][653]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28090.974609
+[2026.01.25-04.53.46:617][657]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-04.53.46:617][657]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28091.648438, Update Interval: 353.534363
+[2026.01.25-05.00.25:856][832]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28491.216797
+[2026.01.25-05.00.26:882][835]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.00.26:882][835]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28491.898438, Update Interval: 307.589966
+[2026.01.25-05.06.31:316][909]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28856.705078
+[2026.01.25-05.06.32:325][912]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.06.32:325][912]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28857.376953, Update Interval: 333.741882
+[2026.01.25-05.07.31:567][ 87]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-05.12.46:390][ 14]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29231.791016
+[2026.01.25-05.12.47:402][ 17]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.12.47:402][ 17]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29232.464844, Update Interval: 328.940704
+[2026.01.25-05.18.47:484][ 79]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29592.878906
+[2026.01.25-05.18.48:511][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.18.48:511][ 81]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29593.564453, Update Interval: 311.713623
+[2026.01.25-05.24.36:913][108]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29942.287109
+[2026.01.25-05.24.37:928][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.24.37:928][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29942.958984, Update Interval: 337.307037
+[2026.01.25-05.31.12:821][275]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30338.189453
+[2026.01.25-05.31.13:836][279]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.31.13:836][279]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30338.857422, Update Interval: 334.424866
+[2026.01.25-05.37.18:149][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30703.496094
+[2026.01.25-05.37.19:164][355]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.37.19:164][355]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30704.169922, Update Interval: 320.253906
+[2026.01.25-05.43.34:326][461]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31079.679688
+[2026.01.25-05.43.35:352][464]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-05.43.35:353][464]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31080.365234, Update Interval: 333.410431
+[2026.01.25-06.39.15:532][310]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-3045775ms], ThreadID=31596
+[2026.01.25-06.39.15:550][310]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.25-06.39.17:553][313]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-06.39.17:553][313]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-06.39.17:692][313]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.25-06.39.17:692][313]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.25-06.39.17:692][313]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-06.39.17:712][313]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.25-06.39.17:712][313]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-06.39.17:712][313]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-06.39.17:877][313]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-06.39.17:877][313]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.25-06.39.17:877][313]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF2506657-4E2B-4A87-9730-2D8BD48422F4%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 0 (Too old connection (3070 seconds idle), disconnect it)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 2 (Closing connection)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 4 (  Trying 104.18.125.108:443...)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 5 (connect to 104.18.125.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 6 (  Trying 104.18.124.108:443...)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 7 (connect to 104.18.124.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 8 (Failed to connect to api.epicgames.dev port 443 after 1150 ms: Couldn't connect to server)
+[2026.01.25-06.39.18:005][313]LogEOSSDK: Warning: LogHttp: 0000022F48489600: libcurl info message cache 9 (Closing connection)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=87E8BBCC40A7DADDF69C34866F4E5964, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: request failed, libcurl error: 7 (Couldn't connect to server)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 0 (Found bundle for host: 0x22e28080600 [serially])
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 1 (Hostname 'api.epicgames.dev' was found in DNS cache)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 2 (  Trying 104.18.125.108:443...)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 3 (connect to 104.18.125.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 4 (  Trying 104.18.124.108:443...)
+[2026.01.25-06.39.18:005][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 5 (connect to 104.18.124.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 6 (Failed to connect to api.epicgames.dev port 443 after 1149 ms: Couldn't connect to server)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487800: libcurl info message cache 7 (Closing connection)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 0 (Found bundle for host: 0x22e28080600 [serially])
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 1 (Hostname 'api.epicgames.dev' was found in DNS cache)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 2 (  Trying 104.18.125.108:443...)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 3 (connect to 104.18.125.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 4 (  Trying 104.18.124.108:443...)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 5 (connect to 104.18.124.108 port 443 failed: Bad access)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 6 (Failed to connect to api.epicgames.dev port 443 after 1149 ms: Couldn't connect to server)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: 0000022F48487E00: libcurl info message cache 7 (Closing connection)
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.01.25-06.39.18:006][314]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=87E8BBCC40A7DADDF69C34866F4E5964
+[2026.01.25-06.39.18:052][314]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-06.39.18:055][314]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.25-06.39.18:055][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-06.39.18:055][314]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.25-06.39.18:055][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-06.39.18:055][314]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31596
+[2026.01.25-06.39.18:057][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-06.39.18:100][314]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF2506657-4E2B-4A87-9730-2D8BD48422F4%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.01.25-06.39.18:253][315]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.25-06.39.18:253][315]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.25-06.39.18:395][315]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}]
+[2026.01.25-06.39.18:396][315]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.25-06.39.18:396][315]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.25-06.39.19:084][317]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.01.25-06.39.19:084][317]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=87E8BBCC40A7DADDF69C34866F4E5964
+[2026.01.25-06.39.19:418][318]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.25-06.39.19:420][318]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}, Name=EB321HQU (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1010.43
+[2026.01.25-06.39.19:420][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.25-06.39.19:420][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.25-06.39.19:422][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.25-06.39.19:432][318]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.01.25-06.39.19:432][318]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=87E8BBCC40A7DADDF69C34866F4E5964
+[2026.01.25-06.39.34:489][637]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF2506657-4E2B-4A87-9730-2D8BD48422F4%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.01.25-06.39.34:489][637]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: request failed, libcurl error: 55 (Failed sending data to the peer)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 0 (Found bundle for host: 0x22e28080f30 [serially])
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 2 (Send failure: Connection was reset)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 3 (OpenSSL SSL_write: Connection was reset, errno 10054)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 4 (Closing connection)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2026.01.25-06.39.34:489][638]LogEOSSDK: Warning: LogHttp: 0000022E4424B400: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2026.01.25-06.39.34:503][638]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF2506657-4E2B-4A87-9730-2D8BD48422F4%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 1 (upload completely sent off: 442 bytes)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 3 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 5 (shutting down connection #9)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 7 (Send failure: Connection was reset)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 9 (necessary data rewind was not possible)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7A30DD8-4FB7-E8A6-0A03-C1ACD63E6565%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=f0c30b7c472bbd4822fae4a71c5b2a55%7Cca4a16e4555b48b689398be9340cb3a8%7C6050f94f-0f26-47a0-a840-b8cd3bca24aa&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 12 (necessary data rewind was not possible)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 13 (rewind of client reader 'cr-in' failed: 65)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 14 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 15 (  Trying 44.214.68.157:443...)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 16 (SSL reusing session)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 17 (ALPN: curl offers http/1.1)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 18 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 26 (Server certificate:)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 28 ( start date: Jan  3 00:00:00 2026 GMT)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 29 ( expire date: Feb  1 23:59:59 2027 GMT)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M04)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 33 (Connected to datarouter.ol.epicgames.com (44.214.68.157) port 443)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 34 (using HTTP/1.x)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 35 (client read function EOF fail, only 0/442 of needed bytes read)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600: libcurl info message cache 36 (closing connection #10)
+[2026.01.25-06.39.34:873][663]LogHttp: Warning: 0000022F5242B600 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7A30DD8-4FB7-E8A6-0A03-C1ACD63E6565%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=f0c30b7c472bbd4822fae4a71c5b2a55%7Cca4a16e4555b48b689398be9340cb3a8%7C6050f94f-0f26-47a0-a840-b8cd3bca24aa&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.05s
+[2026.01.25-06.40.13:938][832]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34480.363281
+[2026.01.25-06.40.14:073][844]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-06.40.14:073][844]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34480.492188, Update Interval: 352.380737
+[2026.01.25-06.42.07:220][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.25-06.42.07:264][987]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-06.42.07:289][987]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-06.42.07:289][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-06.42.07:308][987]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.25-06.42.07:308][987]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball30FA5EA94B598D57CA447CA77BADBE52.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.25-06.42.07:316][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.735 ms (total: 4.39 sec)
+[2026.01.25-06.42.07:359][987]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.25-06.42.07:359][987]LogContentValidation: Enabled validators:
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.25-06.42.07:359][987]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.25-06.42.07:359][987]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.25-06.42.07:806][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.01.25-06.42.07:823][ 15]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:823][ 15]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:824][ 15]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:824][ 15]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:836][ 15]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:836][ 15]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:836][ 15]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.42.07:837][ 15]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-06.47.01:643][569]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34892.222656
+[2026.01.25-06.47.01:753][576]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-06.47.01:753][576]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34892.316406, Update Interval: 356.868805
+[2026.01.25-06.52.16:284][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.01.25-06.52.16:287][826]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/Level/Field' took 0.041
+[2026.01.25-06.52.16:288][826]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-06.52.16:486][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-06.52.16:488][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-06.52.16:508][826]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto6
+[2026.01.25-06.52.16:509][826]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball_Auto652C407C3407ABE0E22C3C785A7E59F30.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto6.uasset'
+[2026.01.25-06.52.16:509][826]LogFileHelpers: Auto-saving content packages took 0.223
+[2026.01.25-06.53.35:647][847]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35295.570312
+[2026.01.25-06.53.35:747][856]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-06.53.35:747][857]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35295.664062, Update Interval: 359.177826
+[2026.01.25-06.57.23:463][  4]LogEditorTransaction: Undo Delete current selection
+[2026.01.25-06.58.17:334][374]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.25-07.00.16:276][208]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35707.480469
+[2026.01.25-07.00.16:379][216]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-07.00.16:379][216]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35707.570312, Update Interval: 319.532471
+[2026.01.25-07.02.54:819][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.01.25-07.02.54:822][941]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/Level/Field' took 0.032
+[2026.01.25-07.02.54:822][941]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-07.02.54:849][941]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-07.02.54:849][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-07.02.54:869][941]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto7
+[2026.01.25-07.02.54:869][941]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball_Auto7F1B10C384CC26071E3D71284C1247D7D.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/Autosaves/Game/MyStuff/Blueprints/BP_Ball_Auto7.uasset'
+[2026.01.25-07.02.54:870][941]LogFileHelpers: Auto-saving content packages took 0.048
+[2026.01.25-07.04.13:926][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.25-07.04.13:974][870]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-07.04.14:003][870]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-07.04.14:003][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-07.04.14:023][870]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.25-07.04.14:023][870]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball7557D52648B1343AB85A6CB1A0614F9C.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.25-07.04.14:032][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.699 ms (total: 4.50 sec)
+[2026.01.25-07.04.14:063][870]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.25-07.04.14:064][870]LogContentValidation: Enabled validators:
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.25-07.04.14:064][870]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.25-07.04.14:064][870]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.25-07.04.14:408][893]LogBlueprint: Error: [AssetLog] C:\Users\antho\Desktop\Unreal Engine Projects\FootBall\FootballPrototype\Content\MyStuff\Blueprints\BP_Ball.uasset: [Compiler] The type of  Target Array  is undetermined.  Connect something to  Is Empty  to imply a specific type.
+[2026.01.25-07.04.14:409][893]LogBlueprint: Error: [AssetLog] C:\Users\antho\Desktop\Unreal Engine Projects\FootBall\FootballPrototype\Content\MyStuff\Blueprints\BP_Ball.uasset: [Compiler] The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2026.01.25-07.04.14:452][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.25-07.04.14:463][893]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:464][893]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:464][893]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:464][893]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:472][893]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:473][893]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:473][893]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.14:473][893]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.31:638][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.25-07.04.31:691][197]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-07.04.31:717][197]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-07.04.31:717][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-07.04.31:737][197]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.25-07.04.31:737][197]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball54BD053E4A6644B2D68CCD83D7747BAA.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.25-07.04.31:747][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.939 ms (total: 4.61 sec)
+[2026.01.25-07.04.31:800][197]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.25-07.04.31:800][197]LogContentValidation: Enabled validators:
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.25-07.04.31:800][197]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.25-07.04.31:800][197]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.25-07.04.32:045][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.25-07.04.32:054][210]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:054][210]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:055][210]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:055][210]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:065][210]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:065][210]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:066][210]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.04.32:066][210]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.04:443][755]LogEditorTransaction: Undo Move Nodes
+[2026.01.25-07.05.21:684][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.25-07.05.21:717][ 65]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-07.05.21:743][ 65]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-07.05.21:743][ 65]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-07.05.21:762][ 65]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.25-07.05.21:763][ 65]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball9AB81951495631C08F4094A5CC2D9C6D.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.25-07.05.21:772][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.450 ms (total: 4.70 sec)
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: Enabled validators:
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.25-07.05.21:810][ 65]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.25-07.05.21:810][ 65]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.25-07.05.22:182][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.25-07.05.22:191][ 88]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:192][ 88]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:192][ 88]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:192][ 88]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:201][ 88]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:201][ 88]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:202][ 88]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.05.22:202][ 88]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.06.09:874][ 23]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36062.878906
+[2026.01.25-07.06.10:877][ 26]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-07.06.10:877][ 26]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36063.546875, Update Interval: 340.870392
+[2026.01.25-07.11.49:882][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.25-07.11.49:931][481]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.25-07.11.49:958][481]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.25-07.11.49:958][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.25-07.11.49:979][481]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.25-07.11.49:980][481]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_BallFAD0EBB045712BC5CF14289E49C43EFD.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.25-07.11.49:988][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.158 ms (total: 4.80 sec)
+[2026.01.25-07.11.50:037][481]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.25-07.11.50:037][481]LogContentValidation: Enabled validators:
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.25-07.11.50:037][481]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.25-07.11.50:037][481]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.25-07.11.50:605][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.01.25-07.11.50:617][517]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:618][517]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:618][517]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:618][517]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:626][517]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:627][517]LogPhysics: Warning: Scale for /Engine/Transient.World_19:PersistentLevel.BP_Net2_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:627][517]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.11.50:627][517]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.25-07.12.46:352][858]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36456.460938
+[2026.01.25-07.12.47:355][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.25-07.12.47:355][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36457.128906, Update Interval: 352.188477
