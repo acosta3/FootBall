@@ -15837,3 +15837,1239 @@ Make sure '/Game/MyStuff/Blueprints/BP_Net2.BP_Net2_C' has been compiled for  Se
 [2026.01.26-01.25.25:677][577]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.01.26-01.25.25:677][577]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.01.26-01.25.25:677][577]AssetCheck: /Game/MyStuff/Level/Field Validating asset
+[2026.01.26-01.29.00:504][702]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29704.214844
+[2026.01.26-01.29.01:501][705]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.29.01:501][705]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29704.880859, Update Interval: 319.431732
+[2026.01.26-01.35.19:257][838]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30082.972656
+[2026.01.26-01.35.20:259][841]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.35.20:259][841]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30083.638672, Update Interval: 350.762054
+[2026.01.26-01.35.25:668][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.01.26-01.35.25:672][857]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/Level/Field' took 0.030
+[2026.01.26-01.35.25:672][857]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net2] ([2] browsable assets)...
+[2026.01.26-01.35.25:874][857]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net2.BP_Net2]
+[2026.01.26-01.35.25:877][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net2]
+[2026.01.26-01.35.25:884][857]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/Blueprints/BP_Net2_Auto9
+[2026.01.26-01.35.25:884][857]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net2_Auto9B6B66F0845A1BFFB677BEBA693592140.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/Autosaves/Game/MyStuff/Blueprints/BP_Net2_Auto9.uasset'
+[2026.01.26-01.35.25:885][857]LogFileHelpers: Auto-saving content packages took 0.213
+[2026.01.26-01.37.12:345][178]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:345][178]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:406][178]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:406][178]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.12:406][178]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:474][178]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:474][178]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.12:474][178]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:531][178]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:531][178]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.12:531][178]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:594][178]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:594][178]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.12:594][178]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:623][178]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.26-01.37.12:623][178]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.26-01.37.12:623][178]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.26-01.37.12:653][179]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:653][179]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.12:653][179]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:719][179]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:719][179]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.12:719][179]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:784][179]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:784][179]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.12:784][179]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:844][179]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:844][179]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.12:844][179]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:906][179]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.12:906][179]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.12:906][179]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.12:957][179]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.37.12:958][179]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.26-01.37.12:958][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.26-01.37.12:958][179]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.37.12:958][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.26-01.37.12:958][179]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=33072
+[2026.01.26-01.37.12:959][179]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.26-01.37.12:960][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.26-01.37.16:338][190]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.16:338][190]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.16:394][190]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.37.16:394][190]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.16:394][190]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.16:470][190]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.26-01.37.16:470][190]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.37.16:470][190]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.16:623][190]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.26-01.37.16:623][190]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.26-01.37.16:623][190]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.26-01.37.16:661][191]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.26-01.37.16:661][191]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.37.16:661][191]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.37.16:957][191]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.37.16:958][191]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.26-01.37.16:958][191]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.26-01.37.16:958][191]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.37.16:958][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.26-01.37.16:958][191]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=33072
+[2026.01.26-01.37.16:959][191]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.26-01.42.07:371][ 62]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30491.113281
+[2026.01.26-01.42.08:371][ 65]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.42.08:371][ 65]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30491.781250, Update Interval: 338.323303
+[2026.01.26-01.47.11:828][976]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.11:828][976]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.11:894][976]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.11:894][976]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.47.11:894][976]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.11:961][976]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.11:961][976]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.47.11:961][976]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:019][976]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:019][976]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.47.12:019][976]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:080][976]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:080][976]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-01.47.12:080][976]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:113][976]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.26-01.47.12:113][976]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.26-01.47.12:113][976]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.26-01.47.12:135][977]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:135][977]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.47.12:135][977]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:199][977]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:199][977]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.47.12:199][977]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:264][977]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:264][977]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.47.12:264][977]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:336][977]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:336][977]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.47.12:336][977]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:396][977]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-01.47.12:396][977]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-01.47.12:396][977]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-01.47.12:447][977]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.47.12:448][977]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.26-01.47.12:448][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.26-01.47.12:448][977]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.26-01.47.12:448][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.26-01.47.12:449][977]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=33072
+[2026.01.26-01.47.12:449][977]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.26-01.47.12:450][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.26-01.48.21:801][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30865.570312
+[2026.01.26-01.48.22:801][188]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.48.22:801][188]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30866.236328, Update Interval: 321.971497
+[2026.01.26-01.54.16:560][249]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31220.314453
+[2026.01.26-01.54.17:558][253]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.54.17:558][253]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31220.978516, Update Interval: 302.321838
+[2026.01.26-01.59.53:975][261]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31557.738281
+[2026.01.26-01.59.54:977][264]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-01.59.54:977][264]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31558.402344, Update Interval: 317.119049
+[2026.01.26-02.05.51:384][334]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31915.158203
+[2026.01.26-02.05.52:381][336]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.05.52:381][336]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31915.826172, Update Interval: 350.888397
+[2026.01.26-02.12.30:473][530]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32314.251953
+[2026.01.26-02.12.31:474][533]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.12.31:474][533]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32314.917969, Update Interval: 322.932831
+[2026.01.26-02.15.22:423][ 46]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.26-02.18.41:576][643]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32685.345703
+[2026.01.26-02.18.42:573][647]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.18.42:573][647]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32686.011719, Update Interval: 349.170807
+[2026.01.26-02.25.19:346][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33083.031250
+[2026.01.26-02.25.20:349][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.25.20:349][839]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33083.695312, Update Interval: 307.110199
+[2026.01.26-02.31.19:768][918]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33443.425781
+[2026.01.26-02.31.21:105][921]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.31.21:105][921]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33444.425781, Update Interval: 318.199402
+[2026.01.26-02.37.10:195][969]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33793.785156
+[2026.01.26-02.37.11:193][971]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.37.11:194][971]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33794.457031, Update Interval: 324.868317
+[2026.01.26-02.43.27:945][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34171.558594
+[2026.01.26-02.43.28:940][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.43.28:940][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34172.226562, Update Interval: 328.907745
+[2026.01.26-02.49.49:363][245]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34553.000000
+[2026.01.26-02.49.50:366][248]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.49.50:366][248]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34553.667969, Update Interval: 300.314941
+[2026.01.26-02.55.31:786][272]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34895.359375
+[2026.01.26-02.55.32:783][275]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-02.55.32:783][275]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34896.027344, Update Interval: 349.427155
+[2026.01.26-03.01.54:536][420]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35278.078125
+[2026.01.26-03.01.55:532][423]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.01.55:532][423]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35278.746094, Update Interval: 346.997284
+[2026.01.26-03.08.34:977][621]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35678.382812
+[2026.01.26-03.08.35:975][624]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.08.35:975][624]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35679.042969, Update Interval: 324.980011
+[2026.01.26-03.14.50:406][747]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36053.835938
+[2026.01.26-03.14.51:405][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.14.51:405][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36054.500000, Update Interval: 301.983093
+[2026.01.26-03.15.22:424][844]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.26-03.20.46:163][815]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36409.625000
+[2026.01.26-03.20.47:164][817]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.20.47:164][817]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36410.292969, Update Interval: 319.777832
+[2026.01.26-03.26.40:244][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36763.695312
+[2026.01.26-03.26.41:249][879]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.26.41:249][879]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36764.371094, Update Interval: 357.919861
+[2026.01.26-03.33.29:673][105]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37173.082031
+[2026.01.26-03.33.30:675][107]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.33.30:675][107]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37173.753906, Update Interval: 340.277100
+[2026.01.26-03.39.46:099][233]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37549.484375
+[2026.01.26-03.39.47:100][236]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.39.47:100][236]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37550.152344, Update Interval: 327.331146
+[2026.01.26-03.46.03:193][364]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37926.531250
+[2026.01.26-03.46.04:194][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.46.04:194][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37927.199219, Update Interval: 329.176910
+[2026.01.26-03.52.06:938][456]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38290.253906
+[2026.01.26-03.52.07:943][458]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.52.07:943][458]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38290.921875, Update Interval: 323.667114
+[2026.01.26-03.58.15:368][560]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38658.687500
+[2026.01.26-03.58.16:369][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-03.58.16:370][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38659.355469, Update Interval: 309.549255
+[2026.01.26-04.04.04:784][609]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39008.078125
+[2026.01.26-04.04.05:784][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.04.05:784][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39008.750000, Update Interval: 333.340851
+[2026.01.26-04.10.15:541][720]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39378.789062
+[2026.01.26-04.10.16:537][723]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.10.16:537][723]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39379.457031, Update Interval: 328.435303
+[2026.01.26-04.15.22:425][641]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.26-04.16.19:962][813]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39743.195312
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: request failed, libcurl error: 35 (SSL connect error)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 0 (Found bundle for host: 0x20bad080b40 [serially])
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 3 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 5 (Closing connection)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:308][913]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 7 (Send failure: Connection was reset)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 9 (Issue another request to this URL: 'https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30')
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 10 (Found bundle for host: 0x20bad080b40 [serially])
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 11 (Hostname api.epicgames.dev was found in DNS cache)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 12 (  Trying 104.18.124.108:443...)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 13 (Connected to api.epicgames.dev (104.18.124.108) port 443)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 15 (SSL reusing session ID)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.01.26-04.16.53:308][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 17 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 18 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 19 (Closing connection)
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 20 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogHttp: 0000020D13C42400: libcurl info message cache 21 (Recv failure: Connection was reset)
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30
+[2026.01.26-04.16.53:309][914]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+[2026.01.26-04.16.53:645][914]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 47.195042 seconds
+[2026.01.26-04.17.40:651][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39823.855469
+[2026.01.26-04.17.50:981][ 86]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.17.50:981][ 86]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39833.835938, Update Interval: 332.494873
+[2026.01.26-04.24.05:063][208]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40208.191406
+[2026.01.26-04.24.06:063][211]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.24.06:063][211]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40208.859375, Update Interval: 318.951996
+[2026.01.26-04.30.24:493][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40587.566406
+[2026.01.26-04.30.25:492][349]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.30.25:492][349]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40588.234375, Update Interval: 321.760925
+[2026.01.26-04.36.36:585][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40959.628906
+[2026.01.26-04.36.37:584][466]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.36.37:584][466]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40960.292969, Update Interval: 326.660980
+[2026.01.26-04.43.00:676][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41343.730469
+[2026.01.26-04.43.01:670][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.43.01:670][617]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41344.394531, Update Interval: 344.120605
+[2026.01.26-04.49.21:766][758]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41724.777344
+[2026.01.26-04.49.22:763][760]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.49.22:763][760]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41725.441406, Update Interval: 352.701202
+[2026.01.26-04.56.13:198][991]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42136.261719
+[2026.01.26-04.56.14:202][994]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-04.56.14:202][994]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42136.933594, Update Interval: 333.564270
+[2026.01.26-05.02.21:622][ 96]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42504.636719
+[2026.01.26-05.02.22:617][100]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.02.22:617][100]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42505.300781, Update Interval: 318.951996
+[2026.01.26-05.08.33:387][211]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42876.410156
+[2026.01.26-05.08.34:381][214]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.08.34:381][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42877.078125, Update Interval: 330.277405
+[2026.01.26-05.14.39:799][311]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43242.832031
+[2026.01.26-05.14.40:799][313]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.14.40:799][313]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43243.503906, Update Interval: 316.397583
+[2026.01.26-05.15.22:426][438]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.26-05.20.56:222][440]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43619.203125
+[2026.01.26-05.20.57:223][442]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.20.57:223][442]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43619.871094, Update Interval: 337.310699
+[2026.01.26-05.27.29:318][619]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44012.328125
+[2026.01.26-05.27.30:319][621]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.27.30:319][621]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44012.996094, Update Interval: 350.311584
+[2026.01.26-05.34.08:763][816]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44411.789062
+[2026.01.26-05.34.09:759][819]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.34.09:759][819]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44412.453125, Update Interval: 322.237000
+[2026.01.26-05.40.05:179][885]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44768.183594
+[2026.01.26-05.40.06:179][888]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.40.06:179][889]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44768.847656, Update Interval: 310.076599
+[2026.01.26-05.45.47:595][912]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45110.613281
+[2026.01.26-05.45.48:593][915]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.45.48:593][915]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45111.277344, Update Interval: 320.636627
+[2026.01.26-05.51.47:359][991]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45470.382812
+[2026.01.26-05.51.48:356][994]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.51.48:356][994]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45471.046875, Update Interval: 315.562622
+[2026.01.26-05.58.02:439][116]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45845.378906
+[2026.01.26-05.58.03:437][120]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-05.58.03:437][120]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45846.046875, Update Interval: 328.283325
+[2026.01.26-06.00.54:901][634]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-06.00.54:901][634]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-06.00.54:972][634]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.01.26-06.00.54:973][634]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-06.00.54:973][634]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-06.00.55:060][634]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.26-06.00.55:060][634]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.01.26-06.00.55:060][634]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7ec79da4-565d-43ce-9b0c-22b2d7b0f429}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-06.00.55:144][634]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.26-06.00.55:144][634]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.26-06.00.55:144][634]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.01.26-06.00.55:255][635]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=EB321HQU (NVIDIA High Definition Audio), InstanceID=1
+[2026.01.26-06.00.55:255][635]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2026.01.26-06.00.55:255][635]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{8419615f-d206-421b-8199-aa4bcf61b0d3}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.01.26-06.00.55:479][635]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.01.26-06.00.55:480][635]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.01.26-06.00.55:480][635]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.26-06.00.55:480][635]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.01.26-06.00.55:480][635]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.26-06.00.55:480][635]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=33072
+[2026.01.26-06.00.55:480][635]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.01.26-06.00.55:481][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.26-06.03.52:308][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.03.52:350][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.03.52:378][100]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.03.52:378][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.03.52:409][100]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.03.52:409][100]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerA0F3CDEF40410B20081E5EA82394FBFB.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.03.52:421][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.409 ms (total: 17.5 sec)
+[2026.01.26-06.03.52:458][100]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.03.52:458][100]LogContentValidation: Enabled validators:
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.03.52:458][100]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.03.52:458][100]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.03.52:796][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.01.26-06.04.08:294][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.04.08:352][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.04.08:381][187]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.04.08:381][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.04.08:409][187]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.04.08:410][187]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player3784A6FB44E6DEEE09AFDE93F2850C87.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.04.08:422][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.697 ms (total: 17.7 sec)
+[2026.01.26-06.04.08:454][187]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.04.08:454][187]LogContentValidation: Enabled validators:
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.04.08:454][187]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.04.08:454][187]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.04.18:826][894]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46219.726562
+[2026.01.26-06.04.18:917][900]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.04.18:917][901]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46219.804688, Update Interval: 301.854919
+[2026.01.26-06.04.56:182][443]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyStuff/Blueprints/BP_FootballGameMode.BP_FootballGameMode
+[2026.01.26-06.04.56:182][443]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_63
+[2026.01.26-06.04.59:864][624]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball
+[2026.01.26-06.04.59:864][624]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_64
+[2026.01.26-06.05.46:547][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.05.46:604][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net2] ([2] browsable assets)...
+[2026.01.26-06.05.46:604][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net2]
+[2026.01.26-06.05.46:609][515]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net2
+[2026.01.26-06.05.46:610][515]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net2913BFAAF417AE16D2979B4B3555C3DAE.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net2.uasset'
+[2026.01.26-06.05.46:624][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.202 ms (total: 17.7 sec)
+[2026.01.26-06.05.46:681][515]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.05.46:681][515]LogContentValidation: Enabled validators:
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.05.46:681][515]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.05.46:681][515]AssetCheck: /Game/MyStuff/Blueprints/BP_Net2 Validating asset
+[2026.01.26-06.05.55:708][116]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.05.55:747][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net2] ([2] browsable assets)...
+[2026.01.26-06.05.55:747][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net2]
+[2026.01.26-06.05.55:753][116]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net2
+[2026.01.26-06.05.55:753][116]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net2E39C0A184C35C918AF4D158AEEC51CFE.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net2.uasset'
+[2026.01.26-06.05.55:765][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.649 ms (total: 17.8 sec)
+[2026.01.26-06.05.55:811][116]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.05.55:811][116]LogContentValidation: Enabled validators:
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.05.55:811][116]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.05.55:811][116]AssetCheck: /Game/MyStuff/Blueprints/BP_Net2 Validating asset
+[2026.01.26-06.05.56:947][192]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.05.56:947][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.05.57:026][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.01.26-06.06.36:779][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.06.36:826][731]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.06.36:853][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.26-06.06.36:853][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.06.36:878][731]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.06.36:879][731]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball18ABC27C44A3FF7E0BBA84993ADC34E3.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.06.36:889][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.612 ms (total: 17.9 sec)
+[2026.01.26-06.06.36:945][731]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.06.36:945][731]LogContentValidation: Enabled validators:
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.06.36:945][731]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.06.36:946][731]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.06.37:307][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.01.26-06.06.37:319][750]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:319][750]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:320][750]LogPhysics: Warning: Scale for /Engine/Transient.World_58:PersistentLevel.BP_Net_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:320][750]LogPhysics: Warning: Scale for /Engine/Transient.World_58:PersistentLevel.BP_Net_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:347][750]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:347][750]LogPhysics: Warning: Scale for /Game/MyStuff/Level/Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:348][750]LogPhysics: Warning: Scale for /Engine/Transient.World_58:PersistentLevel.BP_Net_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.37:348][750]LogPhysics: Warning: Scale for /Engine/Transient.World_58:PersistentLevel.BP_Net_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.06.39:374][882]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.01.26-06.06.39:374][882]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.06.39:374][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.06.39:421][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.01.26-06.07.17:951][444]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball
+[2026.01.26-06.07.17:952][444]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_65
+[2026.01.26-06.08.00:468][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.08.00:517][ 70]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.08.00:546][ 70]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.26-06.08.00:546][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.08.00:573][ 70]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.08.00:573][ 70]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball903C125A43F61EB7B94648B042154EEB.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.08.00:585][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.330 ms (total: 18.0 sec)
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: Enabled validators:
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.08.00:634][ 70]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.08.00:634][ 70]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.09.03:007][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.09.03:066][353]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.09.03:066][353]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.09.03:091][353]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.09.03:091][353]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_BallB49E355B4208641CC50B88AB19DD4EFE.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.09.03:104][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.806 ms (total: 18.1 sec)
+[2026.01.26-06.09.03:154][353]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.09.03:154][353]LogContentValidation: Enabled validators:
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.09.03:154][353]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.09.03:154][353]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.09.04:270][427]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.09.04:270][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.09.04:334][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.26-06.09.19:114][477]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.09.19:152][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.09.19:179][477]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.09.19:179][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.09.19:207][477]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.09.19:207][477]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerC5437F9D4A87DA1E8A3C7C84C1C69F72.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.09.19:219][477]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.327 ms (total: 18.2 sec)
+[2026.01.26-06.09.19:272][477]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.09.19:272][477]LogContentValidation: Enabled validators:
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.09.19:272][477]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.09.19:272][477]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.09.19:743][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.26-06.09.57:671][260]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.09.58:212][266]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.10.08:240][  2]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.10.08:812][ 11]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.10.16:972][532]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46575.343750
+[2026.01.26-06.10.17:093][541]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.10.17:093][541]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46575.453125, Update Interval: 358.932465
+[2026.01.26-06.10.27:634][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.10.27:688][276]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.10.27:716][276]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.10.27:716][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.10.27:743][276]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.10.27:744][276]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player34AC0EA543B9109E161B3ABB42225ED2.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.10.27:755][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.706 ms (total: 18.3 sec)
+[2026.01.26-06.10.27:790][276]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.10.27:791][276]LogContentValidation: Enabled validators:
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.10.27:791][276]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.10.27:791][276]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.10.28:111][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.01.26-06.10.30:783][499]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.10.30:791][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.10.30:819][499]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.10.30:821][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2026.01.26-06.10.30:821][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001850s)
+[2026.01.26-06.10.30:846][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.01.26-06.10.30:851][499]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.10.30:853][499]LogPlayLevel: PIE: World Init took: (0.001610s)
+[2026.01.26-06.10.30:854][499]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.10.30:854][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.10.30:854][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.10.30:854][499]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.10.30:854][499]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.10.30:854][499]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.10.30:857][499]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.10.30:918][499]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.10.30:918][499]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.10.30:918][499]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.10.30:918][499]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.10.30:918][499]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2026.01.26-06.10.30:918][499]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2026.01.26-06.10.30:921][499]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2026.01.26-06.10.30:921][499]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2026.01.26-06.10.30:921][499]LogInit: FAudioDevice initialized with ID 78.
+[2026.01.26-06.10.30:921][499]LogAudio: Display: Audio Device (ID: 78) registered with world 'Field'.
+[2026.01.26-06.10.30:921][499]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 78
+[2026.01.26-06.10.30:925][499]LogStreaming: Display: FlushAsyncLoading(611): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.10.30:925][499]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.10.30:926][499]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.10.30:926][499]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.10.30:926][499]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.10.30
+[2026.01.26-06.10.30:926][499]LogWorld: Bringing up level for play took: 0.000809
+[2026.01.26-06.10.30:928][499]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2026.01.26-06.10.30:932][499]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.10.30:932][499]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.10.30:932][499]PIE: Server logged in
+[2026.01.26-06.10.30:934][499]PIE: Play in editor total start time 0.144 seconds.
+[2026.01.26-06.10.30:973][500]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.10.35:496][990]LogBlueprintUserMessages: [BP_Player_C_0] CoolDown
+[2026.01.26-06.11.00:100][661]LogBlueprintUserMessages: [BP_Player_C_0] fail
+[2026.01.26-06.11.01:211][785]LogBlueprintUserMessages: [BP_Player_C_0] fail
+[2026.01.26-06.11.06:417][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.11.06:417][350]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.11.06:417][350]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.11.06:417][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.11.06:419][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.11.06:425][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.11.06:445][350]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.26-06.11.06:445][350]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 78
+[2026.01.26-06.11.06:445][350]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=4
+[2026.01.26-06.11.06:447][350]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=2
+[2026.01.26-06.11.06:452][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.11.06:455][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.01.26-06.11.06:503][351]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2026.01.26-06.11.09:835][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball
+[2026.01.26-06.11.09:835][627]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_66
+[2026.01.26-06.11.13:155][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.11.13:193][808]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.11.13:221][808]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.26-06.11.13:221][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.11.13:248][808]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.11.13:248][808]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball2CAFE9D448DD678147F9A8A0142E6B43.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.11.13:259][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.652 ms (total: 18.4 sec)
+[2026.01.26-06.11.13:309][808]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.11.13:309][808]LogContentValidation: Enabled validators:
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.11.13:309][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.11.13:309][808]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.11.50:360][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.11.50:425][221]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.11.50:425][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.11.50:449][221]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.11.50:450][221]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball7AA7047940B91DBBF03C5AB927F6E8DD.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.11.50:462][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.775 ms (total: 18.6 sec)
+[2026.01.26-06.11.50:506][221]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.11.50:506][221]LogContentValidation: Enabled validators:
+[2026.01.26-06.11.50:506][221]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.11.50:507][221]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.11.50:507][221]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.11.50:507][221]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.11.50:507][221]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.11.50:507][221]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.11.50:507][221]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.12.14:588][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.12.14:629][736]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.12.14:629][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.12.14:655][736]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.12.14:655][736]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball875AE23842102C86C251108A0E096420.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.12.14:667][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.987 ms (total: 18.6 sec)
+[2026.01.26-06.12.14:722][736]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.12.14:722][736]LogContentValidation: Enabled validators:
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.12.14:722][736]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.12.14:723][736]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.12.21:584][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.12.21:643][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.12.21:670][234]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.12.21:670][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.12.21:697][234]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.12.21:697][234]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerCB195C154873D747BEA89A95A6B7FABB.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.12.21:709][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.786 ms (total: 18.8 sec)
+[2026.01.26-06.12.21:762][234]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.12.21:762][234]LogContentValidation: Enabled validators:
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.12.21:762][234]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.12.21:762][234]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.12.22:156][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.01.26-06.13.23:392][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.13.23:443][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.13.23:470][711]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.13.23:471][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.13.23:497][711]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.13.23:497][711]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player1AC97248460A49E75B1101BC0063B004.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.13.23:509][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.068 ms (total: 18.9 sec)
+[2026.01.26-06.13.23:545][711]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.13.23:545][711]LogContentValidation: Enabled validators:
+[2026.01.26-06.13.23:545][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.13.23:545][711]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.13.23:546][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.13.23:546][711]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.13.23:546][711]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.13.23:546][711]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.13.23:546][711]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.13.24:478][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.01.26-06.14.46:078][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.14.46:131][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.14.46:156][897]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.14.46:156][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.14.46:183][897]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.14.46:183][897]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerE2F5423D42087466611ED383884A4756.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.14.46:194][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.428 ms (total: 19.0 sec)
+[2026.01.26-06.14.46:235][897]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.14.46:235][897]LogContentValidation: Enabled validators:
+[2026.01.26-06.14.46:235][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.14.46:236][897]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.14.46:236][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.14.46:236][897]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.14.46:236][897]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.14.46:236][897]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.14.46:236][897]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.14.46:560][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.01.26-06.15.07:752][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.15.07:782][296]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.26-06.15.07:808][296]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Net.BP_Net]
+[2026.01.26-06.15.07:808][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.26-06.15.07:814][296]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.26-06.15.07:815][296]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_NetDA94F89D406F80EAD07368B906BAFAF1.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.26-06.15.07:825][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.251 ms (total: 19.1 sec)
+[2026.01.26-06.15.07:866][296]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.15.07:866][296]LogContentValidation: Enabled validators:
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.15.07:866][296]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.15.07:866][296]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.26-06.15.22:426][310]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.26-06.16.52:658][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46964.085938
+[2026.01.26-06.16.53:659][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.16.53:659][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46964.750000, Update Interval: 352.710358
+[2026.01.26-06.18.05:419][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.18.05:458][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Net] ([2] browsable assets)...
+[2026.01.26-06.18.05:459][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Net]
+[2026.01.26-06.18.05:464][757]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Net
+[2026.01.26-06.18.05:464][757]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Net9E24462247097AF79050ED84F8D37EB3.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Net.uasset'
+[2026.01.26-06.18.05:475][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.147 ms (total: 19.1 sec)
+[2026.01.26-06.18.05:526][757]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.18.05:526][757]LogContentValidation: Enabled validators:
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.18.05:526][757]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.18.05:527][757]AssetCheck: /Game/MyStuff/Blueprints/BP_Net Validating asset
+[2026.01.26-06.18.41:396][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.18.41:443][970]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyStuff/Blueprints/BP_Ball] ([2] browsable assets)...
+[2026.01.26-06.18.41:473][970]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Ball.BP_Ball]
+[2026.01.26-06.18.41:473][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Ball]
+[2026.01.26-06.18.41:500][970]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Ball
+[2026.01.26-06.18.41:500][970]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Ball5363F4294D0EDDBDC4C8F3BF90D7D655.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Ball.uasset'
+[2026.01.26-06.18.41:510][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.393 ms (total: 19.2 sec)
+[2026.01.26-06.18.41:562][970]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.18.41:562][970]LogContentValidation: Enabled validators:
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.18.41:562][970]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.18.41:562][970]AssetCheck: /Game/MyStuff/Blueprints/BP_Ball Validating asset
+[2026.01.26-06.18.48:201][422]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.18.48:208][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.18.48:208][422]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.18.48:210][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002026s)
+[2026.01.26-06.18.48:210][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002063s)
+[2026.01.26-06.18.48:234][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.01.26-06.18.48:239][422]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.18.48:240][422]LogPlayLevel: PIE: World Init took: (0.001582s)
+[2026.01.26-06.18.48:241][422]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.18.48:241][422]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.18.48:241][422]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.18.48:241][422]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.18.48:241][422]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.18.48:241][422]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.18.48:244][422]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.18.48:302][422]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.18.48:302][422]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.18.48:302][422]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.18.48:302][422]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.18.48:303][422]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2026.01.26-06.18.48:303][422]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=79
+[2026.01.26-06.18.48:304][422]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2026.01.26-06.18.48:304][422]LogInit: FAudioDevice initialized with ID 79.
+[2026.01.26-06.18.48:304][422]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2026.01.26-06.18.48:304][422]LogAudio: Display: Audio Device (ID: 79) registered with world 'Field'.
+[2026.01.26-06.18.48:304][422]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 79
+[2026.01.26-06.18.48:309][422]LogStreaming: Display: FlushAsyncLoading(612): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.18.48:309][422]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.18.48:310][422]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.18.48:310][422]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.18.48:310][422]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.18.48
+[2026.01.26-06.18.48:310][422]LogWorld: Bringing up level for play took: 0.000757
+[2026.01.26-06.18.48:312][422]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2026.01.26-06.18.48:316][422]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.18.48:316][422]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.18.48:317][422]PIE: Server logged in
+[2026.01.26-06.18.48:319][422]PIE: Play in editor total start time 0.111 seconds.
+[2026.01.26-06.18.48:357][423]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.19.03:261][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.19.03:261][ 38]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.19.03:261][ 38]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.19.03:262][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.19.03:263][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.19.03:268][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.19.03:290][ 38]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.26-06.19.03:290][ 38]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 79
+[2026.01.26-06.19.03:290][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79, StreamState=4
+[2026.01.26-06.19.03:292][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79, StreamState=2
+[2026.01.26-06.19.03:295][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.19.03:297][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.01.26-06.19.03:345][ 39]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2026.01.26-06.19.26:370][773]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.19.26:370][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.19.26:422][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.26-06.19.27:912][880]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.19.27:912][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.19.27:954][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.26-06.21.12:818][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.21.12:854][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.21.12:887][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.21.12:887][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.21.12:915][164]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.21.12:915][164]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player2DCA80EF437D1F2AB7E7FD9E14C180C3.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.21.12:929][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.199 ms (total: 19.3 sec)
+[2026.01.26-06.21.12:997][164]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.21.12:997][164]LogContentValidation: Enabled validators:
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.21.12:998][164]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.21.12:998][164]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.21.15:113][336]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.21.15:120][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.21.15:149][336]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.21.15:151][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001934s)
+[2026.01.26-06.21.15:151][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001981s)
+[2026.01.26-06.21.15:174][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.26-06.21.15:179][336]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.21.15:181][336]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2026.01.26-06.21.15:181][336]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2026.01.26-06.21.15:181][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.21.15:182][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.21.15:182][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.21.15:182][336]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.21.15:182][336]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.21.15:182][336]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.21.15:184][336]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.21.15:216][336]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.21.15:217][336]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.21.15:217][336]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.21.15:217][336]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.21.15:217][336]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2026.01.26-06.21.15:217][336]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=80
+[2026.01.26-06.21.15:219][336]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2026.01.26-06.21.15:219][336]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2026.01.26-06.21.15:219][336]LogInit: FAudioDevice initialized with ID 80.
+[2026.01.26-06.21.15:219][336]LogAudio: Display: Audio Device (ID: 80) registered with world 'Field'.
+[2026.01.26-06.21.15:219][336]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 80
+[2026.01.26-06.21.15:223][336]LogStreaming: Display: FlushAsyncLoading(613): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.21.15:223][336]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.21.15:224][336]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.21.15:224][336]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.21.15:224][336]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.21.15
+[2026.01.26-06.21.15:224][336]LogWorld: Bringing up level for play took: 0.000845
+[2026.01.26-06.21.15:226][336]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2026.01.26-06.21.15:230][336]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.21.15:230][336]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.21.15:231][336]PIE: Server logged in
+[2026.01.26-06.21.15:233][336]PIE: Play in editor total start time 0.113 seconds.
+[2026.01.26-06.21.15:268][337]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.21.28:045][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.21.28:045][751]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.21.28:045][751]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.21.28:046][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.21.28:047][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.21.28:052][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.21.28:073][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.21.28:073][751]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 80
+[2026.01.26-06.21.28:073][751]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80, StreamState=4
+[2026.01.26-06.21.28:075][751]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80, StreamState=2
+[2026.01.26-06.21.28:081][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.26-06.21.28:128][752]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2026.01.26-06.21.29:263][859]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.21.29:269][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.21.29:293][859]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.21.29:295][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2026.01.26-06.21.29:295][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.001962s)
+[2026.01.26-06.21.29:315][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.26-06.21.29:318][859]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.21.29:320][859]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2026.01.26-06.21.29:320][859]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.21.29:320][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.21.29:320][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.21.29:320][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.21.29:320][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.21.29:320][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.21.29:322][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.21.29:349][859]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.21.29:349][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.21.29:349][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.21.29:349][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.21.29:349][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=81
+[2026.01.26-06.21.29:349][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=81
+[2026.01.26-06.21.29:350][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=81
+[2026.01.26-06.21.29:350][859]LogInit: FAudioDevice initialized with ID 81.
+[2026.01.26-06.21.29:350][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=81
+[2026.01.26-06.21.29:350][859]LogAudio: Display: Audio Device (ID: 81) registered with world 'Field'.
+[2026.01.26-06.21.29:350][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 81
+[2026.01.26-06.21.29:354][859]LogStreaming: Display: FlushAsyncLoading(614): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.21.29:354][859]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.21.29:355][859]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.21.29:355][859]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.21.29:355][859]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.21.29
+[2026.01.26-06.21.29:356][859]LogWorld: Bringing up level for play took: 0.000920
+[2026.01.26-06.21.29:357][859]LogOnline: OSS: Created online subsystem instance for: :Context_115
+[2026.01.26-06.21.29:360][859]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.21.29:360][859]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.21.29:361][859]PIE: Server logged in
+[2026.01.26-06.21.29:363][859]PIE: Play in editor total start time 0.094 seconds.
+[2026.01.26-06.21.29:398][860]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.21.53:778][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.21.53:778][555]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.21.53:778][555]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.21.53:778][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.21.53:780][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.21.53:785][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.21.53:804][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.21.53:804][555]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 81
+[2026.01.26-06.21.53:804][555]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81, StreamState=4
+[2026.01.26-06.21.53:805][555]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81, StreamState=2
+[2026.01.26-06.21.53:817][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.26-06.21.53:863][556]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2026.01.26-06.23.33:899][833]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47361.199219
+[2026.01.26-06.23.34:004][841]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.23.34:004][841]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47361.285156, Update Interval: 308.842438
+[2026.01.26-06.29.37:539][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47726.406250
+[2026.01.26-06.29.37:632][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.29.37:632][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47726.484375, Update Interval: 355.581543
+[2026.01.26-06.30.03:734][ 72]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::BooleanOR' [Element not found.]
+[2026.01.26-06.30.57:232][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.30.57:291][679]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.30.57:317][679]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.30.57:317][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.30.57:345][679]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.30.57:346][679]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player601F042F4680EFF12024049C6497A57A.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.30.57:357][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 125.104 ms (total: 19.5 sec)
+[2026.01.26-06.30.57:408][679]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.30.57:408][679]LogContentValidation: Enabled validators:
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.30.57:408][679]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.30.57:408][679]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.30.57:989][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.01.26-06.31.31:398][930]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.31.31:905][937]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.32.34:307][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.32.34:338][142]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.32.34:364][142]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.32.34:364][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.32.34:393][142]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.32.34:393][142]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player93228FFF48F4ADB8B3C285B8ABF9C6C3.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.32.34:406][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.944 ms (total: 19.6 sec)
+[2026.01.26-06.32.34:461][142]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.32.34:461][142]LogContentValidation: Enabled validators:
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.32.34:461][142]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.32.34:462][142]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.32.34:834][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.01.26-06.33.16:753][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.33.16:807][ 80]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.33.16:834][ 80]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.33.16:834][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.33.16:860][ 80]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.33.16:861][ 80]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerB7DC1A734AC7CFEECC787BA230B1EC9F.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.33.16:872][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.524 ms (total: 19.7 sec)
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: Enabled validators:
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.33.16:924][ 80]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.33.16:924][ 80]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.35.20:534][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.35.20:589][946]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.35.20:616][946]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.35.20:616][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.35.20:644][946]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.35.20:644][946]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerA87BD6134DCDE8347891A982A6CB0587.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.35.20:656][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.466 ms (total: 19.8 sec)
+[2026.01.26-06.35.20:706][946]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.35.20:706][946]LogContentValidation: Enabled validators:
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.35.20:706][946]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.35.20:706][946]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.35.21:073][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.01.26-06.36.22:114][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48126.570312
+[2026.01.26-06.36.22:224][354]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.36.22:224][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48126.664062, Update Interval: 301.765198
+[2026.01.26-06.37.02:954][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.01.26-06.38.22:522][931]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.38.22:570][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.38.22:597][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.38.22:597][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.38.22:630][931]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.38.22:630][931]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerEE4DBD6540815A822A5403AECB07D3ED.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.38.22:642][931]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.191 ms (total: 19.9 sec)
+[2026.01.26-06.38.22:701][931]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.38.22:701][931]LogContentValidation: Enabled validators:
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.38.22:701][931]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.38.22:701][931]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.38.23:107][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.01.26-06.40.13:658][596]LogEditorTransaction: Undo Paste clipboard contents
+[2026.01.26-06.40.31:385][586]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.40.31:435][586]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.40.31:461][586]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.40.31:461][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.40.31:495][586]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.40.31:495][586]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_Player8168335542B53F04C12173977329860A.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.40.31:506][586]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.431 ms (total: 20.0 sec)
+[2026.01.26-06.40.31:565][586]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.40.31:565][586]LogContentValidation: Enabled validators:
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.40.31:565][586]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.40.31:565][586]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.40.31:937][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.01.26-06.40.35:149][816]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.40.35:156][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.40.35:191][816]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.40.35:193][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002003s)
+[2026.01.26-06.40.35:193][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002052s)
+[2026.01.26-06.40.35:214][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.01.26-06.40.35:222][816]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.40.35:224][816]LogPlayLevel: PIE: World Init took: (0.001726s)
+[2026.01.26-06.40.35:224][816]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.40.35:224][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.40.35:224][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.40.35:224][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.40.35:224][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.40.35:224][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.40.35:227][816]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.40.35:287][816]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.40.35:287][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.40.35:287][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.40.35:287][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.40.35:287][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=82
+[2026.01.26-06.40.35:287][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=82
+[2026.01.26-06.40.35:289][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=82
+[2026.01.26-06.40.35:289][816]LogInit: FAudioDevice initialized with ID 82.
+[2026.01.26-06.40.35:289][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=82
+[2026.01.26-06.40.35:289][816]LogAudio: Display: Audio Device (ID: 82) registered with world 'Field'.
+[2026.01.26-06.40.35:289][816]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 82
+[2026.01.26-06.40.35:293][816]LogStreaming: Display: FlushAsyncLoading(615): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.40.35:293][816]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.40.35:294][816]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.40.35:294][816]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.40.35:294][816]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.40.35
+[2026.01.26-06.40.35:294][816]LogWorld: Bringing up level for play took: 0.000772
+[2026.01.26-06.40.35:297][816]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2026.01.26-06.40.35:300][816]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.40.35:300][816]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.40.35:301][816]PIE: Server logged in
+[2026.01.26-06.40.35:303][816]PIE: Play in editor total start time 0.147 seconds.
+[2026.01.26-06.40.35:339][817]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.41.00:275][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.41.00:275][554]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.41.00:275][554]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.41.00:275][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.41.00:277][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.41.00:282][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.41.00:301][554]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.26-06.41.00:301][554]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 82
+[2026.01.26-06.41.00:302][554]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82, StreamState=4
+[2026.01.26-06.41.00:303][554]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82, StreamState=2
+[2026.01.26-06.41.00:308][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.41.00:311][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.01.26-06.41.00:357][555]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2026.01.26-06.41.33:153][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.41.33:189][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.41.33:217][869]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.41.33:217][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.41.33:249][869]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.41.33:250][869]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerBCCFC88B478C2E2AE48205B71C514025.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.41.33:262][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.234 ms (total: 20.2 sec)
+[2026.01.26-06.41.33:323][869]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.41.33:323][869]LogContentValidation: Enabled validators:
+[2026.01.26-06.41.33:323][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.41.33:323][869]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.41.33:323][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.41.33:323][869]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.41.33:323][869]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.41.33:324][869]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.41.33:324][869]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.42.23:155][169]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48487.535156
+[2026.01.26-06.42.23:263][176]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.26-06.42.23:263][176]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48487.625000, Update Interval: 306.960052
+[2026.01.26-06.43.29:270][699]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.43.29:320][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.43.29:347][699]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.43.29:347][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.43.29:381][699]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.43.29:381][699]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerA50891934FFEBB1E17629F92D67787A1.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.43.29:392][699]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.444 ms (total: 20.3 sec)
+[2026.01.26-06.43.29:436][699]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.43.29:436][699]LogContentValidation: Enabled validators:
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.43.29:436][699]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.43.29:437][699]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.43.29:777][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.26-06.44.42:400][ 11]LogEditorTransaction: Undo Move Nodes
+[2026.01.26-06.44.43:067][ 25]LogEditorTransaction: Undo Create Pin Link
+[2026.01.26-06.44.43:617][ 47]LogEditorTransaction: Undo Move Nodes
+[2026.01.26-06.44.44:290][ 77]LogEditorTransaction: Undo Paste clipboard contents
+[2026.01.26-06.44.44:607][ 87]LogEditorTransaction: Undo Delete current selection
+[2026.01.26-06.44.46:186][167]LogEditorTransaction: Undo Move Node
+[2026.01.26-06.44.54:082][597]LogEditorTransaction: Redo Move Node
+[2026.01.26-06.44.54:680][607]LogEditorTransaction: Redo Delete current selection
+[2026.01.26-06.44.55:352][638]LogEditorTransaction: Redo Paste clipboard contents
+[2026.01.26-06.45.17:563][890]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.26-06.45.17:608][890]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/BP_Player] ([2] browsable assets)...
+[2026.01.26-06.45.17:635][890]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/BP_Player.BP_Player]
+[2026.01.26-06.45.17:635][890]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BP_Player]
+[2026.01.26-06.45.17:670][890]LogSavePackage: Moving output files for package: /Game/MyStuff/Blueprints/BP_Player
+[2026.01.26-06.45.17:670][890]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/BP_PlayerDA72B4DB438F2BA016C2DB9B0E5FD18A.tmp' to '../../../../../../Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Content/MyStuff/Blueprints/BP_Player.uasset'
+[2026.01.26-06.45.17:681][890]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.020 ms (total: 20.4 sec)
+[2026.01.26-06.45.17:730][890]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.26-06.45.17:730][890]LogContentValidation: Enabled validators:
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.26-06.45.17:730][890]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.26-06.45.17:730][890]AssetCheck: /Game/MyStuff/Blueprints/BP_Player Validating asset
+[2026.01.26-06.45.18:074][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.01.26-06.45.20:379][ 64]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.45.20:384][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.45.20:420][ 64]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.45.20:422][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002066s)
+[2026.01.26-06.45.20:422][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002115s)
+[2026.01.26-06.45.20:447][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.01.26-06.45.20:454][ 64]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.45.20:456][ 64]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2026.01.26-06.45.20:456][ 64]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2026.01.26-06.45.20:456][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.45.20:457][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.45.20:457][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.45.20:457][ 64]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.45.20:457][ 64]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.45.20:457][ 64]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.45.20:459][ 64]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.45.20:494][ 64]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.45.20:494][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.45.20:494][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.45.20:494][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.45.20:495][ 64]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=83
+[2026.01.26-06.45.20:495][ 64]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=83
+[2026.01.26-06.45.20:495][ 64]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=83
+[2026.01.26-06.45.20:495][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=83
+[2026.01.26-06.45.20:496][ 64]LogInit: FAudioDevice initialized with ID 83.
+[2026.01.26-06.45.20:496][ 64]LogAudio: Display: Audio Device (ID: 83) registered with world 'Field'.
+[2026.01.26-06.45.20:496][ 64]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 83
+[2026.01.26-06.45.20:500][ 64]LogStreaming: Display: FlushAsyncLoading(616): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.45.20:500][ 64]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.45.20:501][ 64]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.45.20:501][ 64]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.45.20:501][ 64]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.45.20
+[2026.01.26-06.45.20:501][ 64]LogWorld: Bringing up level for play took: 0.000778
+[2026.01.26-06.45.20:503][ 64]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2026.01.26-06.45.20:507][ 64]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.45.20:507][ 64]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.45.20:508][ 64]PIE: Server logged in
+[2026.01.26-06.45.20:510][ 64]PIE: Play in editor total start time 0.126 seconds.
+[2026.01.26-06.45.20:548][ 65]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.46.08:452][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.46.08:453][338]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.46.08:453][338]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.46.08:453][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.46.08:455][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.46.08:459][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.46.08:492][338]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.26-06.46.08:493][338]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 83
+[2026.01.26-06.46.08:493][338]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83, StreamState=4
+[2026.01.26-06.46.08:495][338]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83, StreamState=2
+[2026.01.26-06.46.08:499][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.46.08:502][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.01.26-06.46.08:550][339]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2026.01.26-06.46.09:630][435]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.26-06.46.09:636][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.26-06.46.09:636][435]LogPlayLevel: Creating play world package: /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.46.09:638][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002005s)
+[2026.01.26-06.46.09:638][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Level/Field.Field to /Game/MyStuff/Level/UEDPIE_0_Field.Field (0.002036s)
+[2026.01.26-06.46.09:657][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.26-06.46.09:661][435]LogChaosDD: Creating Chaos Debug Draw Scene for world Field
+[2026.01.26-06.46.09:662][435]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2026.01.26-06.46.09:663][435]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.26-06.46.09:663][435]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.26-06.46.09:663][435]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.26-06.46.09:663][435]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.26-06.46.09:663][435]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.26-06.46.09:663][435]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.26-06.46.09:664][435]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.26-06.46.09:692][435]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2026.01.26-06.46.09:692][435]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.26-06.46.09:692][435]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.26-06.46.09:692][435]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.26-06.46.09:692][435]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=84
+[2026.01.26-06.46.09:692][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=84
+[2026.01.26-06.46.09:693][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=84
+[2026.01.26-06.46.09:693][435]LogInit: FAudioDevice initialized with ID 84.
+[2026.01.26-06.46.09:693][435]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=84
+[2026.01.26-06.46.09:694][435]LogAudio: Display: Audio Device (ID: 84) registered with world 'Field'.
+[2026.01.26-06.46.09:694][435]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 84
+[2026.01.26-06.46.09:698][435]LogStreaming: Display: FlushAsyncLoading(617): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.26-06.46.09:698][435]LogLoad: Game class is 'BP_FootballGameMode_C'
+[2026.01.26-06.46.09:699][435]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.46.09:699][435]LogPhysics: Warning: Scale for /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_Net2_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=11.750 Y=0.000 Z=7.500
+[2026.01.26-06.46.09:699][435]LogWorld: Bringing World /Game/MyStuff/Level/UEDPIE_0_Field.Field up for play (max tick rate 0) at 2026.01.26-01.46.09
+[2026.01.26-06.46.09:700][435]LogWorld: Bringing up level for play took: 0.000760
+[2026.01.26-06.46.09:701][435]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2026.01.26-06.46.09:705][435]LogScript: Warning: Script Msg: The widget 'WBP_ScoreBoard_C_0' was already added to the screen.
+[2026.01.26-06.46.09:705][435]LogScript: Warning: Script Msg called by: BP_FootballController_C /Game/MyStuff/Level/UEDPIE_0_Field.Field:PersistentLevel.BP_FootballController_C_0
+[2026.01.26-06.46.09:706][435]PIE: Server logged in
+[2026.01.26-06.46.09:708][435]PIE: Play in editor total start time 0.072 seconds.
+[2026.01.26-06.46.09:744][436]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.26-06.47.38:650][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.47.38:650][254]LogWorld: BeginTearingDown for /Game/MyStuff/Level/UEDPIE_0_Field
+[2026.01.26-06.47.38:651][254]LogWorld: UWorld::CleanupWorld for Field, bSessionEnded=true, bCleanupResources=true
+[2026.01.26-06.47.38:651][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.47.38:653][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.26-06.47.38:657][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.26-06.47.38:679][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.26-06.47.38:679][254]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 84
+[2026.01.26-06.47.38:679][254]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84, StreamState=4
+[2026.01.26-06.47.38:681][254]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84, StreamState=2
+[2026.01.26-06.47.38:687][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.01.26-06.47.38:734][255]LogPlayLevel: Display: Destroying online subsystem :Context_118
