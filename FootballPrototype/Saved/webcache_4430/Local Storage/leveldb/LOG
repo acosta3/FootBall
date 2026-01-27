@@ -1,15 +1,18 @@
-2026/01/26-20:33:00.404 7afc Reusing MANIFEST C:/Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2026/01/26-20:33:00.405 7afc Recovering log #3
-2026/01/26-20:33:00.406 7afc Reusing old log C:/Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/webcache_4430\Local Storage\leveldb/000003.log 
-2026/01/26-21:28:29.311 3b3c Level-0 table #5: started
-2026/01/26-21:28:29.314 3b3c Level-0 table #5: 64588 bytes OK
-2026/01/26-21:28:29.315 3b3c Delete type=0 #3
-2026/01/26-21:29:16.141 aec4 Level-0 table #7: started
-2026/01/26-21:29:16.143 aec4 Level-0 table #7: 64182 bytes OK
-2026/01/26-21:29:16.144 aec4 Delete type=0 #4
-2026/01/26-21:29:51.249 3b3c Level-0 table #9: started
-2026/01/26-21:29:51.251 3b3c Level-0 table #9: 67031 bytes OK
-2026/01/26-21:29:51.252 3b3c Delete type=0 #6
-2026/01/26-21:30:26.374 aec4 Level-0 table #11: started
-2026/01/26-21:30:26.376 aec4 Level-0 table #11: 67194 bytes OK
-2026/01/26-21:30:26.378 aec4 Delete type=0 #8
+2026/01/27-07:36:57.787 7260 Reusing MANIFEST C:/Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/01/27-07:36:57.788 7260 Recovering log #10
+2026/01/27-07:36:57.789 7260 Reusing old log C:/Users/antho/Desktop/Unreal Engine Projects/FootBall/FootballPrototype/Saved/webcache_4430\Local Storage\leveldb/000010.log 
+2026/01/27-07:37:59.416 56c0 Level-0 table #14: started
+2026/01/27-07:37:59.419 56c0 Level-0 table #14: 69696 bytes OK
+2026/01/27-07:37:59.420 56c0 Delete type=0 #10
+2026/01/27-07:41:59.405 4294 Level-0 table #16: started
+2026/01/27-07:41:59.407 4294 Level-0 table #16: 70002 bytes OK
+2026/01/27-07:41:59.408 4294 Delete type=0 #13
+2026/01/27-07:41:59.409 4294 Compacting 4@0 + 1@1 files
+2026/01/27-07:41:59.411 4294 Generated table #17@0: 4 keys, 16232 bytes
+2026/01/27-07:41:59.411 4294 Compacted 4@0 + 1@1 files => 16232 bytes
+2026/01/27-07:41:59.411 4294 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/27-07:41:59.411 4294 Delete type=2 #7
+2026/01/27-07:41:59.411 4294 Delete type=2 #9
+2026/01/27-07:41:59.411 4294 Delete type=2 #11
+2026/01/27-07:41:59.411 4294 Delete type=2 #14
+2026/01/27-07:41:59.411 4294 Delete type=2 #16
