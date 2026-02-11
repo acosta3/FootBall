@@ -19,5 +19,3 @@ Split-screen in UE5 is **notoriously tricky** - and most tutorials don't cover t
 ### ⚽ **Smart Ball Ownership System**
 Traditional sports games use simple "touch = own" logic. This system is **proximity-based and physics-aware**:
 
-**The Algorithm:**
-```cpp
